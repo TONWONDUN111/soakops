@@ -142,7 +142,8 @@ function goToShopify() {
     return;
   }
 
-  const shopifyUrl = 'https://0u1gd1-9z.myshopify.com/cart/' + items;
+  // Use local /cart/ URL which Netlify proxies to Shopify
+  const shopifyUrl = '/cart/' + items;
   window.location.href = shopifyUrl;
 }
 
