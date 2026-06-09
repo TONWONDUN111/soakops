@@ -36,21 +36,12 @@
   .panel { border: 1px solid var(--line); padding: 22px; }
   h1 { margin: 0 0 6px; font-size: 34px; line-height: 1; letter-spacing: -.03em; }
   .sub { margin: 0 0 22px; color: var(--gray); font-size: 14px; }
-  .group { margin-bottom: 14px; }
-  label { display: block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; margin-bottom: 6px; }
-  input, textarea {
-    width: 100%; border: 1.5px solid var(--line); background: #fff; color: var(--dark);
-    padding: 12px 10px; font-size: 14px;
-  }
-  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  @media (max-width: 620px) { .row { grid-template-columns: 1fr; } }
   .btn {
     width: 100%; border: none; background: var(--lime); color: var(--dark);
     font-weight: 900; text-transform: uppercase; letter-spacing: .07em;
-    padding: 14px; cursor: pointer;
+    padding: 14px; cursor: pointer; font-size: 15px;
   }
   .btn:hover { opacity: .88; }
-  .note { margin-top: 10px; color: var(--gray); font-size: 12px; }
   .item { display: grid; grid-template-columns: 1fr auto; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
   .item:last-child { border-bottom: none; }
   .name { font-size: 14px; font-weight: 700; }
@@ -58,72 +49,22 @@
   .price { font-size: 14px; font-weight: 800; }
   .sum { display: flex; justify-content: space-between; margin-top: 10px; font-size: 14px; }
   .sum.total { font-size: 20px; font-weight: 900; padding-top: 12px; border-top: 1px solid var(--line); margin-top: 14px; }
-  .ok { margin-top: 14px; padding: 12px; border: 1px solid rgba(0,0,0,.15); background: #f8fff0; font-size: 13px; display: none; }
   .empty { color: var(--gray); font-size: 14px; }
+  .note { margin-top: 10px; color: var(--gray); font-size: 12px; text-align: center; }
 </style>
 </head>
 <body>
 <nav>
-  <a class="logo" href="index.html">SOAK <span>OPS</span></a>
-  <a href="cart.html?v=20260605">Back to Cart</a>
+  <a class='logo' href='/'>SOAK <span>OPS</span></a>
+  <a href='/cart?v=20260605'>Back to Cart</a>
 </nav>
 
 <div class="wrap">
   <section class="panel">
     <h1>CHECKOUT</h1>
-    <p class="sub">No account required. Place your order directly from this page.</p>
-
-    <form id="checkout-form">
-      <div class="row">
-        <div class="group">
-          <label for="firstName">First Name</label>
-          <input id="firstName" required>
-        </div>
-        <div class="group">
-          <label for="lastName">Last Name</label>
-          <input id="lastName" required>
-        </div>
-      </div>
-      <div class="group">
-        <label for="email">Email</label>
-        <input id="email" type="email" required>
-      </div>
-      <div class="group">
-        <label for="phone">Phone</label>
-        <input id="phone" type="tel" required>
-      </div>
-      <div class="group">
-        <label for="address">Street Address</label>
-        <input id="address" required>
-      </div>
-      <div class="row">
-        <div class="group">
-          <label for="city">City</label>
-          <input id="city" required>
-        </div>
-        <div class="group">
-          <label for="state">State</label>
-          <input id="state" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="group">
-          <label for="zip">ZIP Code</label>
-          <input id="zip" required>
-        </div>
-        <div class="group">
-          <label for="country">Country</label>
-          <input id="country" value="United States" required>
-        </div>
-      </div>
-      <div class="group">
-        <label for="notes">Order Notes (Optional)</label>
-        <textarea id="notes" rows="3"></textarea>
-      </div>
-      <button class="btn" type="submit">Place Order</button>
-      <p class="note">Submitting stores your order details locally and clears your cart.</p>
-      <div id="ok" class="ok"></div>
-    </form>
+    <p class="sub">You'll complete your order securely on the next page.</p>
+    <button class="btn" id="shopify-checkout-btn" onclick="goToShopify()">Proceed to Secure Checkout →</button>
+    <p class="note">🔒 Powered by Shopify — secure payment processing</p>
   </section>
 
   <aside class="panel">
@@ -136,7 +77,6 @@
 </div>
 
 <script src="products.js"></script>
-<script src="assets/shopify-guard.js"></script>
 <script>
 function getCart() {
   try {
@@ -149,7 +89,8 @@ function getCart() {
         id,
         name: String((prod && prod.name) || i.name || ''),
         price: Number((prod && prod.price) ?? i.price) || 0,
-        qty: Math.max(1, parseInt(i.qty, 10) || 1)
+        qty: Math.max(1, parseInt(i.qty, 10) || 1),
+        variantId: prod && prod.variants && prod.variants.length ? prod.variants[0].id : null
       };
     }).filter(i => !isNaN(i.id));
   } catch { return []; }
@@ -162,9 +103,10 @@ function renderOrder() {
   const box = document.getElementById('items');
 
   if (!cart.length) {
-    box.innerHTML = '<p class="empty">Your cart is empty. <a href="index.html">Return to shop</a>.</p>';
+    box.innerHTML = '<p class="empty">Your cart is empty. <a href="/">Return to shop</a>.</p>';
     document.getElementById('subtotal').textContent = '$0.00';
     document.getElementById('total').textContent = '$0.00';
+    document.getElementById('shopify-checkout-btn').disabled = true;
     return;
   }
 
@@ -182,45 +124,28 @@ function renderOrder() {
   document.getElementById('total').textContent = money(subtotal);
 }
 
-function placeOrder(event) {
-  event.preventDefault();
+function goToShopify() {
   const cart = getCart();
   if (!cart.length) {
     alert('Your cart is empty.');
     return;
   }
 
-  const order = {
-    id: 'SO-' + Date.now(),
-    createdAt: new Date().toISOString(),
-    customer: {
-      firstName: document.getElementById('firstName').value.trim(),
-      lastName: document.getElementById('lastName').value.trim(),
-      email: document.getElementById('email').value.trim(),
-      phone: document.getElementById('phone').value.trim(),
-      address: document.getElementById('address').value.trim(),
-      city: document.getElementById('city').value.trim(),
-      state: document.getElementById('state').value.trim(),
-      zip: document.getElementById('zip').value.trim(),
-      country: document.getElementById('country').value.trim(),
-      notes: document.getElementById('notes').value.trim()
-    },
-    items: cart
-  };
+  // Build Shopify cart URL: /cart/variantId:qty,variantId:qty
+  const items = cart
+    .filter(i => i.variantId)
+    .map(i => i.variantId + ':' + i.qty)
+    .join(',');
 
-  const orders = JSON.parse(localStorage.getItem('soakops-orders') || '[]');
-  orders.push(order);
-  localStorage.setItem('soakops-orders', JSON.stringify(orders));
-  localStorage.removeItem('soakops-cart');
+  if (!items) {
+    alert('Unable to build cart. Please try adding items again.');
+    return;
+  }
 
-  const ok = document.getElementById('ok');
-  ok.style.display = 'block';
-  ok.textContent = 'Order ' + order.id + ' placed successfully.';
-  document.getElementById('checkout-form').reset();
-  renderOrder();
+  const shopifyUrl = 'https://0u1gd1-9z.myshopify.com/cart/' + items;
+  window.location.href = shopifyUrl;
 }
 
-document.getElementById('checkout-form').addEventListener('submit', placeOrder);
 renderOrder();
 </script>
 </body>
