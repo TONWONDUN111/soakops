@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found - Soak Ops</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --lime: #C8FF00;
+    --pink: #E5007D;
+    --dark: #0D0D1A;
+    --white: #FFFFFF;
+    --gray: #6B7280;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--white);
+    color: var(--dark);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 24px;
+  }
+  .blob-tr { position: fixed; top: -140px; right: -140px; width: 700px; height: 700px; background: radial-gradient(circle, rgba(200,255,0,.15) 0%, transparent 65%); pointer-events: none; z-index: 0; }
+  .blob-bl { position: fixed; bottom: -100px; left: -100px; width: 560px; height: 560px; background: radial-gradient(circle, rgba(150,220,255,.2) 0%, transparent 65%); pointer-events: none; z-index: 0; }
+  .panel { position: relative; z-index: 1; max-width: 560px; }
+  .logo { display: inline-block; color: var(--dark); text-decoration: none; font-weight: 900; letter-spacing: -.03em; font-size: 22px; margin-bottom: 40px; }
+  .logo span { color: var(--lime); -webkit-text-stroke: 1px var(--dark); }
+  .code { font-size: clamp(90px, 22vw, 180px); font-weight: 900; line-height: .9; letter-spacing: -.05em; color: var(--pink); }
+  h1 { font-size: clamp(24px, 5vw, 34px); font-weight: 900; letter-spacing: -.03em; margin: 8px 0 14px; }
+  p { color: var(--gray); font-size: 15px; line-height: 1.6; margin-bottom: 32px; }
+  .btn {
+    display: inline-block; border: none; background: var(--lime); color: var(--dark);
+    text-decoration: none; font-weight: 900; text-transform: uppercase; letter-spacing: .07em;
+    padding: 15px 30px; cursor: pointer; font-size: 14px;
+  }
+  .btn:hover { opacity: .88; }
+</style>
+</head>
+<body>
+<div class="blob-tr"></div>
+<div class="blob-bl"></div>
+<div class="panel">
+  <a class="logo" href="/">SOAK <span>OPS</span></a>
+  <div class="code">404</div>
+  <h1>This page slipped away.</h1>
+  <p>The link you followed is broken or the page no longer exists.<br>Let's get you back to the good stuff.</p>
+  <a class="btn" href="/">← Back to shop</a>
+</div>
+</body>
+</html>

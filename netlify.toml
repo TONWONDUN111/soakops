@@ -1,3 +1,12 @@
+# Publish the site from the repository root.
+# This is a plain static site (no build step): index.html and the other
+# pages live at the root, so the deploy must serve from ".". Pinning this
+# here guarantees the correct publish directory regardless of any dashboard
+# setting, which is the most common cause of a site-wide "Page not found".
+[build]
+  publish = "."
+  command = ""
+
 # Security headers applied to every page served by Netlify.
 # Purely additive — does not change any page content or behavior.
 [[headers]]
