@@ -835,11 +835,9 @@ const PRODUCTS = [
     desc: "18-piece full battle kit at 16.5 inches each — the ultimate group summer set. Arm your whole crew in one order.",
     features: [
       "18 guns total",
-      "16.5\",
-      ",
-      ",
-      ",
-      "
+      "16.5\\",
+      ",       ",
+      ",       "
     ],
     variants: [{id:47015966015663,title:"Water gun",price:14.83},{id:47015966048431,title:"Nipple connector",price:8.33},{id:47015966081199,title:"with 1 connector",price:18.07},{id:47015966113967,title:"Tap adapter",price:11.93},{id:47015966146735,title:"16mm pipe Joint",price:9.38},{id:47015966179503,title:"Trigger water gun",price:17.28},{id:47015966212271,title:"16mm pipe Joint BK",price:9.38}]
   },
@@ -1107,7 +1105,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "summer+m416+electric+water+gun+battery+powered+wit",
-    desc: "Summer M416 Electric Water Gun Battery Powered Wit — built for summer water battles.",
+    desc: "Summer M416 Electric Water Gun Battery Powered With External built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1275,7 +1273,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+continuous+water+gun+with+light+flame+eff",
-    desc: "Electric Continuous Water Gun with Light Flame Eff — built for summer water battles.",
+    desc: "Electric Continuous Water Gun with Light Flame Effect Long R built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1296,7 +1294,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "kids+outdoor+toy+electric+blaster+gun+shooting+bul",
-    desc: "Kids Outdoor Toy Electric Blaster Gun Shooting Bul — built for summer water battles.",
+    desc: "Kids Outdoor Toy Electric Blaster Gun Shooting Bullet Pistol built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1317,7 +1315,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "children's+simulation+led+m416+electric+water+gun,",
-    desc: "Children's Simulation LED M416 Electric Water Gun, — built for summer water battles.",
+    desc: "Children's Simulation LED M416 Electric Water Gun, High-Capa built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1338,7 +1336,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "5/10pcs+water+gun+for+kids+summer+foam+watergun+to",
-    desc: "5/10Pcs Water Gun for Kids Summer Foam Watergun To — built for summer water battles.",
+    desc: "5/10Pcs Water Gun for Kids Summer Foam Watergun Toys Water S built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1359,7 +1357,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "u+auto+gatling+water+cannon+rotating+high-pressure",
-    desc: "u Auto Gatling Water Cannon Rotating High-Pressure — built for summer water battles.",
+    desc: "u Auto Gatling Water Cannon Rotating High-Pressure Large Cap built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1380,7 +1378,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "firework+water+blaster+toy+summer+rotating+spray+w",
-    desc: "Firework Water Blaster Toy Summer Rotating Spray W — built for summer water battles.",
+    desc: "Firework Water Blaster Toy Summer Rotating Spray Water Gun B built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1401,7 +1399,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "adults+electric+water+gun+kids+gatling+high+speed+",
-    desc: "Adults Electric Water Gun Kids Gatling High Speed — built for summer water battles.",
+    desc: "Adults Electric Water Gun Kids Gatling High Speed Powerful S built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1422,7 +1420,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "2500ml+firefighter+backpack+water+gun+blaster+for+",
-    desc: "2500ML Firefighter Backpack Water Gun Blaster for — built for summer water battles.",
+    desc: "2500ML Firefighter Backpack Water Gun Blaster for Kids,Tank built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1443,7 +1441,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "children's+backpack+water+gun+pull+type+large+capa",
-    desc: "Children's Backpack Water Gun Pull Type Large Capa — built for summer water battles.",
+    desc: "Children's Backpack Water Gun Pull Type Large Capacity Stora built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1464,7 +1462,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "1pc+children's+backpack+water+gun+toy+water+spray+",
-    desc: "1pc Children's Backpack Water Gun Toy Water Spray — built for summer water battles.",
+    desc: "1pc Children's Backpack Water Gun Toy Water Spray Electric B built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1485,7 +1483,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "toy+water+gun,children+summer+outdoor+mini+cartoon",
-    desc: "Toy water gun,Children Summer Outdoor Mini Cartoon — built for summer water battles.",
+    desc: "Toy water gun,Children Summer Outdoor Mini Cartoon Animals B built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1506,7 +1504,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "high+pressure+electric+sniper+water+gun+toy+with+b",
-    desc: "High Pressure Electric Sniper Water Gun Toy with B — built for summer water battles.",
+    desc: "High Pressure Electric Sniper Water Gun Toy with Blowback Ac built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1527,7 +1525,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "rotating+gatling+water+gun,+high+pressure+large+ca",
-    desc: "Rotating Gatling Water Gun, High Pressure Large Ca — built for summer water battles.",
+    desc: "Rotating Gatling Water Gun, High Pressure Large Capacity Bac built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1548,7 +1546,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "strongest+electric+gatling+water+gun+toy+rotating+",
-    desc: "Strongest Electric Gatling Water Gun Toy Rotating — built for summer water battles.",
+    desc: "Strongest Electric Gatling Water Gun Toy Rotating Double Bar built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1569,7 +1567,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "water+gun+electric+automatic+rapid-fire+high+press",
-    desc: "Water Gun Electric Automatic Rapid-Fire High Press — built for summer water battles.",
+    desc: "Water Gun Electric Automatic Rapid-Fire High Pressure Rechar built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1590,7 +1588,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+m416+toy+gun+automatic+gel+bullet+blaster",
-    desc: "Electric M416 Toy Gun Automatic Gel Bullet Blaster — built for summer water battles.",
+    desc: "Electric M416 Toy Gun Automatic Gel Bullet Blaster Children built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1611,7 +1609,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "water+gun+toys+fun+spray+wrist+hand-held+outdoor+b",
-    desc: "Water Gun Toys Fun Spray Wrist Hand-held Outdoor B — built for summer water battles.",
+    desc: "Water Gun Toys Fun Spray Wrist Hand-held Outdoor Beach Play built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1632,7 +1630,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "51cm+water+gun+toy+for+kids+powerful+water+pistol+",
-    desc: "51CM Water Gun Toy for Kids Powerful Water Pistol — built for summer water battles.",
+    desc: "51CM Water Gun Toy for Kids Powerful Water Pistol with Large built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1653,7 +1651,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "high-speed+ak+electric+ball+blaster+-+fun+for+kids",
-    desc: "High-Speed AK Electric Ball Blaster - Fun for Kids — built for summer water battles.",
+    desc: "High-Speed AK Electric Ball Blaster - Fun for Kids and Adult built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1674,7 +1672,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "children's+space+backpack+water+gun+with+large+cap",
-    desc: "Children's space backpack water gun with large cap — built for summer water battles.",
+    desc: "Children's space backpack water gun with large capacity and built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1695,7 +1693,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "15l+large+capacity+backpack+water+gun+toy+high+pre",
-    desc: "15L Large Capacity Backpack Water Gun Toy High Pre — built for summer water battles.",
+    desc: "15L Large Capacity Backpack Water Gun Toy High Pressure Long built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1716,7 +1714,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "fun+firework+effect+water+gun+for+kids+large+capac",
-    desc: "Fun Firework Effect Water Gun for Kids Large Capac — built for summer water battles.",
+    desc: "Fun Firework Effect Water Gun for Kids Large Capacity Pump A built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1737,7 +1735,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "summer+fireworks+water+gun+toy+pull-out+water+gun+",
-    desc: "Summer Fireworks Water Gun Toy Pull-out Water Gun — built for summer water battles.",
+    desc: "Summer Fireworks Water Gun Toy Pull-out Water Gun Beach play built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1758,7 +1756,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "2025+new+electric+gatling+water+cannon+dual+tube+r",
-    desc: "2025 New Electric Gatling Water Cannon Dual Tube R — built for summer water battles.",
+    desc: "2025 New Electric Gatling Water Cannon Dual Tube Rotating Hi built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1779,7 +1777,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "water+gel+ball+blaster+gun+accessories+splatter+ba",
-    desc: "Water Gel Ball Blaster Gun Accessories Splatter Ba — built for summer water battles.",
+    desc: "Water Gel Ball Blaster Gun Accessories Splatter Ball Gun Ref built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1800,7 +1798,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "4pcs+water+blaster+water+guns+for+kids+shooter+por",
-    desc: "4pcs Water Blaster Water Guns for Kids Shooter Por — built for summer water battles.",
+    desc: "4pcs Water Blaster Water Guns for Kids Shooter Portable 4 Co built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1821,7 +1819,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "gel+blasters+gun+toys+for+adults+500+rounds+full+a",
-    desc: "Gel Blasters Gun Toys for Adults 500 Rounds Full A — built for summer water battles.",
+    desc: "Gel Blasters Gun Toys for Adults 500 Rounds Full Auto 7.4V E built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1842,7 +1840,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "high-performance+water+gel+ball+blaster,electric+b",
-    desc: "High-Performance Water Gel Ball Blaster,Electric B — built for summer water battles.",
+    desc: "High-Performance Water Gel Ball Blaster,Electric Ball Blaste built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1863,7 +1861,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "kunaisi+high+power+2000w++temperature+control+110v",
-    desc: "KUNAISI High Power 2000W  Temperature Control 110V — built for summer water battles.",
+    desc: "KUNAISI High Power 2000W  Temperature Control 110V/220V  Hea built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1884,7 +1882,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "2-pack+gel+ball+blaster,+electric+auto-fire+splatt",
-    desc: "2-Pack Gel Ball Blaster, Electric Auto-Fire Splatt — built for summer water battles.",
+    desc: "2-Pack Gel Ball Blaster, Electric Auto-Fire Splatter Gun,Out built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1905,7 +1903,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "m416+electric+blaster+gun+set,+high+precision+shoo",
-    desc: "M416 Electric Blaster Gun Set, High Precision Shoo — built for summer water battles.",
+    desc: "M416 Electric Blaster Gun Set, High Precision Shooting Toy, built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1926,7 +1924,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "two-way+water+gun+prank+water+gun+toy+stress+relie",
-    desc: "Two-Way Water Gun Prank Water Gun Toy Stress Relie — built for summer water battles.",
+    desc: "Two-Way Water Gun Prank Water Gun Toy Stress Relief Small Pi built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1947,7 +1945,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "children's+m416+soft+cartridge+gun+with+handheld+s",
-    desc: "Children's M416 Soft Cartridge Gun with Handheld S — built for summer water battles.",
+    desc: "Children's M416 Soft Cartridge Gun with Handheld Shell Elect built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1968,7 +1966,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "m416+electric+ball+blaster+toy+gun+-+high-speed,+m",
-    desc: "M416 Electric Ball Blaster Toy Gun - High-Speed, M — built for summer water battles.",
+    desc: "M416 Electric Ball Blaster Toy Gun - High-Speed, Metallic Fi built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -1989,7 +1987,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+submachine+water+blaster+full+automatic+c",
-    desc: "Electric Submachine Water Blaster Full Automatic C — built for summer water battles.",
+    desc: "Electric Submachine Water Blaster Full Automatic Continuous built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2010,7 +2008,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "gel+blasters+gun+toys+for+full+auto+7.4v+electric+",
-    desc: "Gel Blasters Gun Toys for Full Auto 7.4V Electric — built for summer water battles.",
+    desc: "Gel Blasters Gun Toys for Full Auto 7.4V Electric Long Range built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2031,7 +2029,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "firefighter+toy+fire+backpack+water+gun+large+capa",
-    desc: "Firefighter Toy Fire Backpack Water Gun Large Capa — built for summer water battles.",
+    desc: "Firefighter Toy Fire Backpack Water Gun Large Capacity Water built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2052,7 +2050,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "aug+gel+ball+blaster+set+-+rechargeable+outdoor+co",
-    desc: "AUG Gel Ball Blaster Set - Rechargeable Outdoor Co — built for summer water battles.",
+    desc: "AUG Gel Ball Blaster Set - Rechargeable Outdoor Combat Toy f built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2073,7 +2071,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "new+arrival+electric+gel++blaster,upgrade+high-spe",
-    desc: "NEW Arrival Electric Gel  Blaster,Upgrade high-spe — built for summer water battles.",
+    desc: "NEW Arrival Electric Gel  Blaster,Upgrade high-speed motor,s built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2094,7 +2092,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "water+gun+toy+for+kids,+powerful+water+pistol+with",
-    desc: "Water Gun Toy for Kids, Powerful Water Pistol with — built for summer water battles.",
+    desc: "Water Gun Toy for Kids, Powerful Water Pistol with 500ML Moi built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2115,7 +2113,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "summer+electric+backpack+automatic+revolver+water+",
-    desc: "Summer Electric Backpack Automatic Revolver Water — built for summer water battles.",
+    desc: "Summer Electric Backpack Automatic Revolver Water Gun Fights built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2136,7 +2134,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "children's+backpack+2000ml+water+gun+pull+type+lar",
-    desc: "Children's Backpack 2000ml Water Gun Pull Type Lar — built for summer water battles.",
+    desc: "Children's Backpack 2000ml Water Gun Pull Type Large Capacit built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2157,7 +2155,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "prank+water+gun+toy+handheld+manual+two-way+water+",
-    desc: "Prank Water gun Toy Handheld Manual Two-Way Water — built for summer water battles.",
+    desc: "Prank Water gun Toy Handheld Manual Two-Way Water Gun Summer built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2178,7 +2176,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "m416+gun+toy+outdoor+electric+blaster+shooting+spo",
-    desc: "M416 Gun Toy Outdoor Electric Blaster Shooting Spo — built for summer water battles.",
+    desc: "M416 Gun Toy Outdoor Electric Blaster Shooting Sport Gel Bul built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2199,7 +2197,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "slr+nylon+electric+gel+ball+blasting+toy+gun,+auto",
-    desc: "SLR Nylon Electric Gel Ball Blasting Toy Gun, Auto — built for summer water battles.",
+    desc: "SLR Nylon Electric Gel Ball Blasting Toy Gun, Automatic Spla built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2220,7 +2218,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "pull+type+children+backpack+water+spray+toy+powerf",
-    desc: "Pull Type Children Backpack Water Spray Toy Powerf — built for summer water battles.",
+    desc: "Pull Type Children Backpack Water Spray Toy Powerful Range L built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2241,7 +2239,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "glock+press-pump+water+gun+with+high+capacity+for+",
-    desc: "Glock Press-Pump Water Gun with High Capacity for — built for summer water battles.",
+    desc: "Glock Press-Pump Water Gun with High Capacity for Kids, Beac built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2262,7 +2260,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "water+gun+toys+bursts+children's+high-pressure+str",
-    desc: "Water Gun Toys Bursts Children's High-pressure Str — built for summer water battles.",
+    desc: "Water Gun Toys Bursts Children's High-pressure Strong Chargi built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2283,7 +2281,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "summer+backpack+water+gun+cartoon+water+gun+beach+",
-    desc: "Summer Backpack Water Gun Cartoon Water Gun Beach — built for summer water battles.",
+    desc: "Summer Backpack Water Gun Cartoon Water Gun Beach Water Toys built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2304,7 +2302,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "m416+water+gun+toy+high+capacity+water+gun+powerfu",
-    desc: "M416 Water Gun Toy High Capacity Water Gun Powerfu — built for summer water battles.",
+    desc: "M416 Water Gun Toy High Capacity Water Gun Powerful Water Pi built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2325,7 +2323,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "pull+type+children+backpack+water+spray+toy+powerf",
-    desc: "Pull Type Children Backpack Water Spray Toy Powerf — built for summer water battles.",
+    desc: "Pull Type Children Backpack Water Spray Toy Powerful Range L built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2346,7 +2344,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "funny+double-sided+reverse+water+gun+-+summer+pran",
-    desc: "Funny Double-Sided Reverse Water Gun - Summer Pran — built for summer water battles.",
+    desc: "Funny Double-Sided Reverse Water Gun - Summer Prank Toy,Mini built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2367,7 +2365,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+water+gun+toy+continuous+shooting+with+fi",
-    desc: "Electric Water Gun Toy Continuous Shooting with Fi — built for summer water battles.",
+    desc: "Electric Water Gun Toy Continuous Shooting with Firelight La built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2388,7 +2386,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "children+fully+automatic+water+gun+storage+gun+lar",
-    desc: "Children Fully Automatic Water Gun Storage Gun Lar — built for summer water battles.",
+    desc: "Children Fully Automatic Water Gun Storage Gun Large Capacit built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2409,7 +2407,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "water+gun+for+kids+girl+water+toys+outdoor+garden+",
-    desc: "Water Gun For Kids Girl Water Toys OutDoor Garden — built for summer water battles.",
+    desc: "Water Gun For Kids Girl Water Toys OutDoor Garden Game Beach built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2430,7 +2428,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "1250ml+electric+water+gun+large+capacity+automatic",
-    desc: "1250ML Electric Water Gun Large Capacity Automatic — built for summer water battles.",
+    desc: "1250ML Electric Water Gun Large Capacity Automatic Water Bla built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2451,7 +2449,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "backpack+style+water+shooter+large+capacity+stainl",
-    desc: "Backpack Style Water Shooter Large Capacity Stainl — built for summer water battles.",
+    desc: "Backpack Style Water Shooter Large Capacity Stainless Steel built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2472,7 +2470,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "large+capacity+automatic+water+gun+continuous+firi",
-    desc: "Large Capacity Automatic Water Gun Continuous Firi — built for summer water battles.",
+    desc: "Large Capacity Automatic Water Gun Continuous Firing with Li built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2493,7 +2491,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+rotating+water+gun+with+bag+double-dazzli",
-    desc: "Electric Rotating Water Gun With Bag Double-dazzli — built for summer water battles.",
+    desc: "Electric Rotating Water Gun With Bag Double-dazzling Lights built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2514,7 +2512,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "beach+party+outdoor+water+gun+for+pool+for+childre",
-    desc: "Beach Party Outdoor Water Gun for Pool for Childre — built for summer water battles.",
+    desc: "Beach Party Outdoor Water Gun for Pool for Children Toy Chil built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2535,7 +2533,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "kavoworld+transparent+high+pressure+electric+water",
-    desc: "KAVOWORLD Transparent High Pressure Electric Water — built for summer water battles.",
+    desc: "KAVOWORLD Transparent High Pressure Electric Water Blaster H built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2556,7 +2554,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "revolver+electric+automatic+water+gun+backpack+pis",
-    desc: "Revolver Electric Automatic Water Gun Backpack Pis — built for summer water battles.",
+    desc: "Revolver Electric Automatic Water Gun Backpack Pistol Firing built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2577,7 +2575,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "high+pressure+water+rifle+for+adults;+kids+cartoon",
-    desc: "High Pressure Water Rifle for Adults; Kids Cartoon — built for summer water battles.",
+    desc: "High Pressure Water Rifle for Adults; Kids Cartoon Shark Por built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2598,7 +2596,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+water+gun+toy+with+led+light+large+capaci",
-    desc: "Electric Water Gun Toy With LED Light Large Capaci — built for summer water battles.",
+    desc: "Electric Water Gun Toy With LED Light Large Capacity High Sp built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2619,7 +2617,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "3packs+water+gun+for+kids+summer+foam+watergun+toy",
-    desc: "3Packs Water Gun for Kids Summer Foam Watergun Toy — built for summer water battles.",
+    desc: "3Packs Water Gun for Kids Summer Foam Watergun Toys Water Sq built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2640,7 +2638,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "2026+two-way+water+gun+prank+water+gun+toy+large+c",
-    desc: "2026 Two-Way Water Gun Prank Water Gun Toy Large C — built for summer water battles.",
+    desc: "2026 Two-Way Water Gun Prank Water Gun Toy Large Capacity St built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2661,7 +2659,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "50-200+pack+mini+water+gun+for+boys+and+girls+colo",
-    desc: "50-200 Pack Mini Water Gun for Boys and Girls Colo — built for summer water battles.",
+    desc: "50-200 Pack Mini Water Gun for Boys and Girls Colorful Water built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2682,7 +2680,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "battle+electric+water+guns，with+gun+muzzle+flame+h",
-    desc: "Battle Electric Water Guns，with Gun Muzzle Flame H — built for summer water battles.",
+    desc: "Battle Electric Water Guns，with Gun Muzzle Flame High Capaci built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2703,7 +2701,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "m1911+water+guns+pistol+toy+squirt+guns,+summer+po",
-    desc: "M1911 Water Guns Pistol Toy Squirt Guns, Summer Po — built for summer water battles.",
+    desc: "M1911 Water Guns Pistol Toy Squirt Guns, Summer Pool Beach S built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2724,7 +2722,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+water+gun+with+recoil:+automatic+high+pre",
-    desc: "Electric Water Gun with Recoil: Automatic High Pre — built for summer water battles.",
+    desc: "Electric Water Gun with Recoil: Automatic High Pressure Squi built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2745,7 +2743,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "ssauto+gatling+water+cannon+rotating+high-pressure",
-    desc: "SSAuto Gatling Water Cannon Rotating High-Pressure — built for summer water battles.",
+    desc: "SSAuto Gatling Water Cannon Rotating High-Pressure Large Cap built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2766,7 +2764,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "fully+automatic+suction+water+gun+electric+toy+hig",
-    desc: "Fully Automatic Suction Water Gun Electric Toy Hig — built for summer water battles.",
+    desc: "Fully Automatic Suction Water Gun Electric Toy High Pressure built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2787,7 +2785,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "u+auto+gatling+water+cannon+rotating+high-pressure",
-    desc: "u Auto Gatling Water Cannon Rotating High-Pressure — built for summer water battles.",
+    desc: "u Auto Gatling Water Cannon Rotating High-Pressure Large Cap built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2808,7 +2806,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "summer+outdoor+large+capacity+electric+shooting+wa",
-    desc: "Summer Outdoor Large Capacity Electric Shooting Wa — built for summer water battles.",
+    desc: "Summer Outdoor Large Capacity Electric Shooting Water Gun To built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2829,7 +2827,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "jfu+40-shot+high-precision+compound+bow+shallow+dr",
-    desc: "JFU 40-shot High-precision Compound Bow Shallow Dr — built for summer water battles.",
+    desc: "JFU 40-shot High-precision Compound Bow Shallow Dragon Flat built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2850,7 +2848,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "red+electric+gel+ball+blaster+gun+gle817+-+automat",
-    desc: "Red Electric Gel Ball Blaster Gun GLE817 - Automat — built for summer water battles.",
+    desc: "Red Electric Gel Ball Blaster Gun GLE817 - Automatic Ball To built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2871,7 +2869,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "upgraded+g18+gel+blaster+empty+magazine+hold+open,",
-    desc: "Upgraded G18 Gel Blaster Empty Magazine Hold Open, — built for summer water battles.",
+    desc: "Upgraded G18 Gel Blaster Empty Magazine Hold Open, Realistic built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2892,7 +2890,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "nylon+slr+gel+blaster+toy+for+family+fun+safe+eco+",
-    desc: "Nylon SLR Gel Blaster Toy for Family Fun Safe Eco — built for summer water battles.",
+    desc: "Nylon SLR Gel Blaster Toy for Family Fun Safe Eco Friendly G built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2913,7 +2911,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+water+gun+water+blaster+high+capacity+lon",
-    desc: "Electric Water Gun Water Blaster High Capacity Lon — built for summer water battles.",
+    desc: "Electric Water Gun Water Blaster High Capacity Long Range Su built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2934,7 +2932,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "manual+submachine+gun,portable+continuous-fire+wat",
-    desc: "Manual Submachine Gun,Portable Continuous-Fire Wat — built for summer water battles.",
+    desc: "Manual Submachine Gun,Portable Continuous-Fire Water Gun Toy built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2955,7 +2953,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "ak47+style+gel+blaster+gun+-+full+auto+electric+ge",
-    desc: "AK47 Style Gel Blaster Gun - Full Auto Electric Ge — built for summer water battles.",
+    desc: "AK47 Style Gel Blaster Gun - Full Auto Electric Gel Ball Bla built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2976,7 +2974,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "ak47+gel+blasters+sniper+rifle+-+32m+extreme+range",
-    desc: "AK47 Gel Blasters Sniper Rifle - 32M Extreme Range — built for summer water battles.",
+    desc: "AK47 Gel Blasters Sniper Rifle - 32M Extreme Range, Full Aut built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -2997,7 +2995,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "tactical+slingshot+crossbow++high+power+hunting+sh",
-    desc: "Tactical Slingshot Crossbow  High Power Hunting Sh — built for summer water battles.",
+    desc: "Tactical Slingshot Crossbow  High Power Hunting Shooting Toy built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3018,7 +3016,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+burst+splatter+blaster+toy+gun+gel+blaste",
-    desc: "Electric Burst Splatter Blaster Toy Gun Gel Blaste — built for summer water battles.",
+    desc: "Electric Burst Splatter Blaster Toy Gun Gel Blaster Outdoor built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3039,7 +3037,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "super+water+gun+blaster+pistol+foam+ball+popper+ai",
-    desc: "Super Water Gun Blaster Pistol Foam Ball Popper Ai — built for summer water battles.",
+    desc: "Super Water Gun Blaster Pistol Foam Ball Popper Air Toy Guns built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3060,7 +3058,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "electric+water+gun+with+flame+light+effect+high+pr",
-    desc: "Electric Water Gun With Flame Light Effect High Pr — built for summer water battles.",
+    desc: "Electric Water Gun With Flame Light Effect High Pressure Rap built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3081,7 +3079,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "gel+blasters+electric+multiple+water+bullet+guns+p",
-    desc: "gel blasters Electric Multiple Water Bullet Guns P — built for summer water battles.",
+    desc: "gel blasters Electric Multiple Water Bullet Guns Pistols Fir built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3102,7 +3100,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "simulated+rifle+car+wash+water+gun+joker+dinosaur+",
-    desc: "Simulated Rifle Car Wash Water Gun Joker Dinosaur — built for summer water battles.",
+    desc: "Simulated Rifle Car Wash Water Gun Joker Dinosaur Black Spra built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3123,7 +3121,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "ump45+popular+car+wash+water+gun,+high-pressure+po",
-    desc: "UMP45 Popular Car Wash Water Gun, High-pressure Po — built for summer water battles.",
+    desc: "UMP45 Popular Car Wash Water Gun, High-pressure Powerful Cle built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3144,7 +3142,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "4500+psi+high+pressure+washer+simulation+ump45+gun",
-    desc: "4500 PSI High Pressure Washer Simulation UMP45 Gun — built for summer water battles.",
+    desc: "4500 PSI High Pressure Washer Simulation UMP45 Gun Foldable built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3165,7 +3163,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "simulated+rifle+car+wash+water+gun+joker+dinosaur+",
-    desc: "Simulated Rifle Car Wash Water Gun Joker Dinosaur — built for summer water battles.",
+    desc: "Simulated Rifle Car Wash Water Gun Joker Dinosaur Black Spra built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3186,7 +3184,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "ump45+popular+car+wash+water+gun,+high-pressure+po",
-    desc: "UMP45 Popular Car Wash Water Gun, High-pressure Po — built for summer water battles.",
+    desc: "UMP45 Popular Car Wash Water Gun, High-pressure Powerful Cle built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3207,7 +3205,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "simulated+rifle+car+wash+water+gun+joker+dinosaur+",
-    desc: "Simulated Rifle Car Wash Water Gun Joker Dinosaur — built for summer water battles.",
+    desc: "Simulated Rifle Car Wash Water Gun Joker Dinosaur Black Spra built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3228,7 +3226,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "high+pressure+wash+gun+brass+foam+cannon+gun+press",
-    desc: "High Pressure Wash Gun Brass Foam Cannon Gun Press — built for summer water battles.",
+    desc: "High Pressure Wash Gun Brass Foam Cannon Gun Pressure Cleane built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
@@ -3249,7 +3247,7 @@ const PRODUCTS = [
     sold: "1,000+",
     rating: 4.7,
     link: "genuine+inhibitor+switch+462044c000+for+2003~2012]",
-    desc: "Genuine INHIBITOR SWITCH 462044C000 for 2003~2012] — built for summer water battles.",
+    desc: "Genuine INHIBITOR SWITCH 462044C000 for 2003~2012] built for summer water battles.",
     features: [
       "High-pressure stream",
       "Durable build",
