@@ -1,9 +1,3 @@
-# Proxy /cart/* requests to Shopify
-[[redirects]]
-  from = "/cart/:items"
-  to = "https://0u1gd1-9z.myshopify.com/cart/:items"
-  status = 200
-  force = true
 
 # Security headers applied to every page served by Netlify.
 # Purely additive — does not change any page content or behavior.
