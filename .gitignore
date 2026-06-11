@@ -1,6 +1,9 @@
 # Local Netlify folder
 .netlify
 
+# macOS
+.DS_Store
+
 # Never commit real passwords or API keys
 .env
 .env.*

@@ -142,8 +142,8 @@ function goToShopify() {
     return;
   }
 
-  // Use local /cart/ URL which Netlify proxies to Shopify
-  const shopifyUrl = '/cart/' + items;
+  // Send directly to Shopify checkout (avoids soakops.com domain loop)
+  const shopifyUrl = 'https://0u1gd1-9z.myshopify.com/cart/' + items;
   window.location.href = shopifyUrl;
 }
 
