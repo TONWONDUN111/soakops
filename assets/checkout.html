@@ -85,12 +85,18 @@ function getCart() {
     return raw.map(i => {
       const id = parseInt(i.id, 10);
       const prod = PRODUCTS.find(p => p.id === id);
+      const price = Number((prod && prod.price) ?? i.price) || 0;
+      let variantId = null;
+      if (prod && prod.variants && prod.variants.length) {
+        const match = prod.variants.find(v => Math.abs(v.price - price) < 0.01);
+        variantId = (match || prod.variants[0]).id;
+      }
       return {
         id,
         name: String((prod && prod.name) || i.name || ''),
-        price: Number((prod && prod.price) ?? i.price) || 0,
+        price,
         qty: Math.max(1, parseInt(i.qty, 10) || 1),
-        variantId: prod && prod.variants && prod.variants.length ? prod.variants[0].id : null
+        variantId
       };
     }).filter(i => !isNaN(i.id));
   } catch { return []; }
