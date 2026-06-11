@@ -345,7 +345,21 @@ function render() {
 function checkout() {
   const cart = getCart();
   if (!cart.length) return;
-  window.location.href = 'assets/checkout.html';
+
+  const items = cart.map(i => {
+    const prod = PRODUCTS.find(p => p.id === i.id);
+    if (!prod || !prod.variants || !prod.variants.length) return null;
+    const match = prod.variants.find(v => Math.abs(v.price - i.price) < 0.01);
+    const variantId = (match || prod.variants[0]).id;
+    return variantId + ':' + i.qty;
+  }).filter(Boolean).join(',');
+
+  if (!items) {
+    alert('Unable to build cart. Please try adding items again.');
+    return;
+  }
+
+  window.location.href = 'https://0u1gd1-9z.myshopify.com/cart/' + items;
 }
 
 // Handle "Buy Now" — ?buynow=ID adds item then renders
