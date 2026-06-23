@@ -356,8 +356,8 @@ function checkout() {
   }).join(',');
 
   window.location.href = lineItems
-    ? 'https://0u1gd1-9z.myshopify.com/cart/' + lineItems
-    : 'https://0u1gd1-9z.myshopify.com';
+    ? SHOP_DOMAIN + '/cart/' + lineItems
+    : SHOP_DOMAIN;
 }
 
 // Handle "Buy Now" — ?buynow=ID adds item then renders
