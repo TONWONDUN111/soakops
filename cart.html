@@ -346,20 +346,18 @@ function checkout() {
   const cart = getCart();
   if (!cart.length) return;
 
-  const items = cart.map(i => {
+  // Build line items from vid if available
+  const lineItems = cart.filter(i => {
     const prod = PRODUCTS.find(p => p.id === i.id);
-    if (!prod || !prod.variants || !prod.variants.length) return null;
-    const match = prod.variants.find(v => Math.abs(v.price - i.price) < 0.01);
-    const variantId = (match || prod.variants[0]).id;
-    return variantId + ':' + i.qty;
-  }).filter(Boolean).join(',');
+    return prod && prod.vid;
+  }).map(i => {
+    const prod = PRODUCTS.find(p => p.id === i.id);
+    return prod.vid + ':' + i.qty;
+  }).join(',');
 
-  if (!items) {
-    alert('Unable to build cart. Please try adding items again.');
-    return;
-  }
-
-  window.location.href = 'https://0u1gd1-9z.myshopify.com/cart/' + items;
+  window.location.href = lineItems
+    ? 'https://0u1gd1-9z.myshopify.com/cart/' + lineItems
+    : 'https://0u1gd1-9z.myshopify.com';
 }
 
 // Handle "Buy Now" — ?buynow=ID adds item then renders
