@@ -460,7 +460,6 @@ function renderProducts() {
   const sort = document.getElementById('sort').value;
   const grid = document.getElementById('grid');
   let filtered = PRODUCTS.filter(p => {
-    if (!p.link || !String(p.link).trim()) return false;
     const a = attrs(p);
     const catOk = activeCat === 'all' || p.cat === activeCat;
     const audOk = activeAud === 'all' || (activeAud === 'kids' && a.kids) || (activeAud === 'adults' && a.adults);
@@ -492,8 +491,8 @@ function renderProducts() {
       <div class="card-body">
         <div class="card-name">${nameHtml}</div>
         <div class="card-foot">
-          <div>${soldLine}<span class="card-price">$${p.price.toFixed(2)}</span></div>
-          <span class="btn-buy">Buy Now</span>
+          <div>${soldLine}<span class="card-price">$${p.price}</span></div>
+          <button type="button" class="btn-buy" onclick="event.preventDefault();addToCart(${p.id})">Add to Cart</button>
         </div>
       </div>
     </a>`;
@@ -501,6 +500,26 @@ function renderProducts() {
 }
 
 renderProducts();
+
+function addToCart(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  if (!p) return;
+  const cart = JSON.parse(localStorage.getItem('soakops-cart') || '[]');
+  const idx = cart.findIndex(i => i.id === id);
+  if (idx > -1) { cart[idx].qty += 1; } else {
+    cart.push({ id: p.id, vid: p.vid, name: p.name, price: p.price, img: p.img, qty: 1 });
+  }
+  localStorage.setItem('soakops-cart', JSON.stringify(cart));
+  const n = cart.reduce((s, i) => s + i.qty, 0);
+  const el = document.getElementById('nav-count');
+  if (el) { el.textContent = n; el.style.display = 'flex'; }
+  // Brief toast feedback
+  const t = document.createElement('div');
+  t.textContent = p.name.split(' ').slice(0,3).join(' ') + ' added!';
+  t.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0D0D1A;color:#C8FF00;padding:12px 24px;font-weight:800;font-size:13px;letter-spacing:.05em;z-index:999;';
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 2500);
+}
 
 (function updateCartBadge() {
   const cart = JSON.parse(localStorage.getItem('soakops-cart') || '[]');
