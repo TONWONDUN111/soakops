@@ -228,7 +228,7 @@ function updateNavCount() {
 function addToCart(product, qty) {
   const cart = getCart();
   const idx  = cart.findIndex(i => i.id === product.id);
-  if (idx > -1) { cart[idx].qty += qty; } else { cart.push({id:product.id, name:product.name, price:product.price, img:product.img, qty}); }
+  if (idx > -1) { cart[idx].qty += qty; } else { cart.push({id:product.id, vid:product.vid, name:product.name, price:product.price, img:product.img, qty}); }
   saveCart(cart);
   updateNavCount();
 }
@@ -253,8 +253,7 @@ function renderStars(rating) {
 // ── Main render ───────────────────────────────────────────────────────────────
 const params = new URLSearchParams(window.location.search);
 const id = parseInt(params.get('id') || '0', 10);
-const MAPPED_PRODUCTS = PRODUCTS.filter(x => x.link && String(x.link).trim());
-const p  = MAPPED_PRODUCTS.find(x => x.id === id) || MAPPED_PRODUCTS[0] || PRODUCTS[0];
+const p  = PRODUCTS.find(x => x.id === id) || PRODUCTS[0];
 
 // Breadcrumb
 document.getElementById('bc-cat').textContent  = p.cat.charAt(0).toUpperCase() + p.cat.slice(1);
