@@ -261,6 +261,37 @@ document.getElementById('bc-cat').href         = `index.html`;
 document.getElementById('bc-name').textContent = p.name;
 document.title = p.name + ' — Soak Ops';
 
+// ── Color variant detection ───────────────────────────────────────────────────
+const COLOR_WORDS = ['white','blue','pink','green','red','purple','orange','yellow','black','sky blue','grey','gray','alt'];
+const COLOR_HEX = {white:'#f5f5f5',blue:'#3b82f6',pink:'#ec4899',green:'#22c55e',red:'#ef4444',purple:'#a855f7',orange:'#f97316',yellow:'#eab308',black:'#111',grey:'#9ca3af',gray:'#9ca3af'};
+function getBaseName(name) {
+  let b = name.toLowerCase();
+  COLOR_WORDS.forEach(c => { b = b.replace(new RegExp('\\b'+c.replace(' ','\\s')+'\\b','gi'),''); });
+  return b.replace(/\(.*?\)/g,'').replace(/style\s*\d+/gi,'').replace(/\s+/g,' ').trim();
+}
+function extractColor(name) {
+  const n = name.toLowerCase();
+  if (n.includes('sky blue')) return 'Sky Blue';
+  for (const c of COLOR_WORDS) if (n.includes(c)) return c.charAt(0).toUpperCase()+c.slice(1);
+  return null;
+}
+const baseName = getBaseName(p.name);
+const colorVariants = PRODUCTS.filter(x => x.id !== p.id && getBaseName(x.name) === baseName);
+const colorSwatchHtml = colorVariants.length ? `
+  <div style="margin-bottom:20px;">
+    <div style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6B7280;margin-bottom:10px;">Also Available In</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;">
+      ${colorVariants.map(v => {
+        const col = extractColor(v.name) || v.name.split(' ').pop();
+        const hex = COLOR_HEX[col.toLowerCase()] || '#6b7280';
+        return `<a href="product.html?id=${v.id}" title="${col}" style="display:flex;flex-direction:column;align-items:center;gap:4px;text-decoration:none;">
+          <span style="width:28px;height:28px;border-radius:50%;background:${hex};border:2px solid ${col.toLowerCase()==='white'?'#ddd':'transparent'};outline:2px solid transparent;transition:outline .15s;" onmouseover="this.style.outline='2px solid #0D0D1A'" onmouseout="this.style.outline='2px solid transparent'"></span>
+          <span style="font-size:10px;font-weight:600;color:#6B7280;text-transform:capitalize;">${col}</span>
+        </a>`;
+      }).join('')}
+    </div>
+  </div>` : '';
+
 const tagClass = p.tagType === 'hot' ? 'hot' : p.tagType === 'dark' ? 'dark' : 'lime';
 const nameHtml = p.name.replace(/(\b\w+\b)$/, '<span class="k">$1</span>');
 const featuresHtml = (p.features || []).map(f => `
@@ -271,31 +302,26 @@ const featuresHtml = (p.features || []).map(f => `
     ${f}
   </div>`).join('');
 
-const ratingHtml = p.rating
-  ? `<div class="stars">${renderStars(p.rating)}</div><div class="proof-divider"></div><span class="proof-text">${p.rating}★ · ${p.sold} sold</span>`
-  : `<span class="proof-text">${p.sold !== 'New' ? p.sold + ' sold' : 'New arrival'}</span>`;
-
 document.getElementById('product-wrap').innerHTML = `
   <div class="product-gallery">
     <div class="main-image">
       <img src="${CDN}${p.img}" alt="${p.name}" onerror="this.style.display='none'"/>
       <span class="img-badge ${tagClass}">${p.tag}</span>
-      ${p.link ? '<span class="supplier-flag" title="Supplier mapped">🇺🇸</span>' : ''}
     </div>
     <div class="delivery-strip">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-      <p>Ships in <strong>7–12 days</strong> &nbsp;<span>· Free tracking included · Fulfilled automatically</span></p>
+      <p>Fast shipping &nbsp;<span>· Free tracking included · Fulfilled automatically</span></p>
     </div>
   </div>
 
   <div class="product-info">
     <span class="cat-badge">${p.cat}</span>
     <h1 class="product-name">${nameHtml}</h1>
-    <div class="social-proof">${ratingHtml}</div>
     <div class="price-row">
-      <span class="price-main">$${p.price.toFixed(2)}</span>
-      <span class="price-note">Free U.S. shipping</span>
+      <span class="price-main">$${p.price}</span>
+      <span class="price-note">Free shipping</span>
     </div>
+    ${colorSwatchHtml}
     <p class="product-desc">${p.desc}</p>
     <div class="features">
       <div class="features-title">What You Get</div>
@@ -327,8 +353,17 @@ document.getElementById('product-wrap').innerHTML = `
     </div>
   </div>`;
 
-// ── Related products ──────────────────────────────────────────────────────────
-const related = MAPPED_PRODUCTS.filter(x => x.cat === p.cat && x.id !== p.id).slice(0, 4);
+// ── Related products — diverse mix, not same color variants ──────────────────
+const excluded = new Set([p.id, ...colorVariants.map(v=>v.id)]);
+const otherCats = PRODUCTS.filter(x => !excluded.has(x.id) && x.cat !== p.cat);
+const sameCat   = PRODUCTS.filter(x => !excluded.has(x.id) && x.cat === p.cat);
+// Pick 2 from different category, 2 from same — and vary price range
+const pickDiverse = (pool, n) => {
+  const sorted = [...pool].sort((a,b) => a.price - b.price);
+  const step = Math.max(1, Math.floor(sorted.length / n));
+  return Array.from({length: n}, (_,i) => sorted[Math.min(i*step + Math.floor(step/2), sorted.length-1)]).filter(Boolean);
+};
+const related = [...pickDiverse(otherCats, 2), ...pickDiverse(sameCat, 2)].filter(Boolean).slice(0,4);
 document.getElementById('related-grid').innerHTML = related.map(r => {
   const tc = r.tagType === 'hot' ? 'hot' : r.tagType === 'dark' ? 'dark' : '';
   return `
@@ -341,7 +376,7 @@ document.getElementById('related-grid').innerHTML = related.map(r => {
     <div class="card-body">
       <div class="card-name">${r.name}</div>
       <div class="card-foot">
-        <span class="card-price">$${r.price.toFixed(2)}</span>
+        <span class="card-price">$${r.price}</span>
         <span class="btn-view">View</span>
       </div>
     </div>

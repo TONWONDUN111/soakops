@@ -310,18 +310,18 @@ ttq.page();
 <!-- HERO -->
 <section class="hero">
   <div>
-    <div class="hero-badge" id="hero-badge">✦ &nbsp;<span id="gun-count-badge">60</span> GUNS. LIVE NOW.</div>
+    <div class="hero-badge">✦ &nbsp;SUMMER 2026 DROP</div>
     <h1 class="hero-title">
       SOAK THE<span class="cursor-bar"></span><br>
       <span class="hl">COMPETITION.</span>
     </h1>
     <p class="hero-sub">Premium water blasters, electric soakers and battle bundles — Free shipping to your door.</p>
     <div class="hero-ctas">
-      <a href="#catalog" class="btn-hero" id="hero-cta">Shop All <span id="gun-count-cta">60</span> Guns →</a>
+      <a href="#catalog" class="btn-hero" id="hero-cta">Shop All Guns →</a>
       <a href="#how" class="btn-hero-ghost">How It Works</a>
     </div>
     <div class="hero-stats">
-      <div><span class="stat-num" id="hero-stat">79</span><span class="stat-lbl">Products</span></div>
+      <div><span class="stat-num">Free</span><span class="stat-lbl">Returns</span></div>
       <div class="stat-sep"></div>
       <div><span class="stat-num">$2.99</span><span class="stat-lbl">Shipping</span></div>
       <div class="stat-sep"></div>
@@ -470,6 +470,20 @@ function renderProducts() {
   if (sort === 'price-asc')       filtered.sort((a, b) => a.price - b.price);
   else if (sort === 'price-desc') filtered.sort((a, b) => b.price - a.price);
   else if (sort === 'rating')     filtered.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+  else {
+    // Featured: interleave cheap / mid / expensive so page is varied
+    const sorted = [...filtered].sort((a,b) => a.price - b.price);
+    const t = Math.ceil(sorted.length / 3);
+    const cheap = sorted.slice(0, t);
+    const mid   = sorted.slice(t, t*2);
+    const prem  = sorted.slice(t*2);
+    filtered = [];
+    for (let i = 0; i < Math.max(cheap.length, mid.length, prem.length); i++) {
+      if (cheap[i]) filtered.push(cheap[i]);
+      if (mid[i])   filtered.push(mid[i]);
+      if (prem[i])  filtered.push(prem[i]);
+    }
+  }
 
   if (filtered.length === 0) {
     grid.innerHTML = '<div class="no-results"><h3>No Guns Found</h3><p>Try a different search or filter.</p></div>';
