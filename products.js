@@ -20,6 +20,8 @@ const PRODUCTS = [
       "Built for adults & kids",
       "Easy refill port"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S3d95d162000542f0829416c772ca5578W.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015973224623,title:"Style A Black",price:63.29},{id:47015973257391,title:"Style A Green",price:65.72},{id:47015973290159,title:"Style B Blue",price:24.10},{id:47015973322927,title:"Style B Gray",price:24.37},{id:47015973355695,title:"Style A Red",price:63.29},{id:47015973388463,title:"Style A Blue",price:65.90}]
   },
   {
@@ -41,6 +43,8 @@ const PRODUCTS = [
       "Beach & pool ready",
       "Kids & adult size"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S3d816ceaee774c3a8b3259938c9f7311Y.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015973028015,title:"Light Gray",price:57.76},{id:47015973060783,title:"White Fire Cap",price:61.70},{id:47015973093551,title:"Black Fire Cap",price:62.06},{id:47015973126319,title:"Gray Fire Cap",price:61.74},{id:47015973159087,title:"Light White",price:58.75},{id:47015973191855,title:"Light Black",price:58.75}]
   },
   {
@@ -62,6 +66,8 @@ const PRODUCTS = [
       "10K+ proven sales",
       "Strong trigger response"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sa2974af1ccf74918a7110d254d6b8d92r.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015972307119,title:"3PCS",price:16.09},{id:47015972339887,title:"pink blue",price:13.19},{id:47015972372655,title:"gray pink",price:13.19},{id:47015972405423,title:"gray blue",price:13.14},{id:47015972438191,title:"pink with Clip",price:24.19},{id:47015972470959,title:"Blue with Clip",price:22.39},{id:47015972503727,title:"pink with tan",price:23.04},{id:47015972536495,title:"Blue with tan",price:23.60},{id:47015972569263,title:"Shark Blue",price:35.55},{id:47015972602031,title:"Desert Eagle golden",price:11.14},{id:47015972634799,title:"Water Gun Set 2",price:52.47},{id:47015972667567,title:"Water Gun Set 3",price:51.86},{id:47015972700335,title:"2PCS",price:14.06},{id:47015972733103,title:"Shark Green",price:58.95},{id:47015972765871,title:"Desert Eagle gray",price:11.09},{id:47015972798639,title:"Water Gun Set 1",price:54.99},{id:47015972831407,title:"gray",price:10.46},{id:47015972864175,title:"5PCS",price:23.56},{id:47015972896943,title:"blue",price:10.44},{id:47015972929711,title:"pink",price:10.44}]
   },
   {
@@ -83,6 +89,8 @@ const PRODUCTS = [
       "Auto suction refill",
       "4,000+ happy buyers"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S15268e70cb694d36be8ee3ab3f8bb611f.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015970504879,title:"Gray",price:22.73},{id:47015970537647,title:"Red",price:24.62},{id:47015970570415,title:"Blue",price:24.62},{id:47015970603183,title:"Red 1",price:21.53},{id:47015970635951,title:"Red 2",price:22.55},{id:47015970668719,title:"Gray 1",price:22.97},{id:47015970701487,title:"Green",price:22.55},{id:47015970734255,title:"Blue 1",price:21.62}]
   },
   {
@@ -104,6 +112,8 @@ const PRODUCTS = [
       "Long-range precision",
       "Heavy-duty build"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S3302b3f55145439c80b2345c4ab42620F.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1500mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015972208815,title:"Blue",price:85.32},{id:47015972241583,title:"White",price:88.18}]
   },
   {
@@ -125,6 +135,8 @@ const PRODUCTS = [
       "Any water source",
       "Ready in seconds"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sd325e9aae6d942babf9045865320f9c4w.png_480x480.png'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015971946671,title:"WHITE",price:32.45},{id:47015971979439,title:"Blue",price:34.38},{id:47015972012207,title:"white",price:29.88},{id:47015972044975,title:"green",price:34.25},{id:47015972077743,title:"Red",price:32.42},{id:47015972110511,title:"blue",price:30.53},{id:47015972143279,title:"Beige",price:30.38}]
   },
   {
@@ -146,6 +158,8 @@ const PRODUCTS = [
       "30ft range",
       "Lightweight frame"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S53b7d4b0a96c47cfa026e66d4b1714dbT.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'30ft / 9m', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015971618991,title:"box packaging",price:61.04},{id:47015971651759,title:"box packaging 1",price:60.91},{id:47015971684527,title:"box packaging 2",price:61.11},{id:47015971717295,title:"box packaging 3",price:58.10},{id:47015971750063,title:"box packaging 4",price:58.16},{id:47015971782831,title:"box packaging 5",price:56.61},{id:47015971815599,title:"box packaging 6",price:56.61},{id:47015971848367,title:"box packaging 7",price:58.21},{id:47015971881135,title:"box packaging 8",price:57.76}]
   },
   {
@@ -167,6 +181,8 @@ const PRODUCTS = [
       "Best value electric",
       "4,000 units sold"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S11b32e25bc354863adc13d5b2b6d3228j.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015971225775,title:"Large Capacity-Pink",price:28.24},{id:47015971258543,title:"Large Capacity-Blue",price:28.33},{id:47015971291311,title:"Standard-Pink",price:24.12},{id:47015971324079,title:"Standard-Blue",price:23.76},{id:47015971356847,title:"Manual version-pink",price:12.76},{id:47015971389615,title:"Manual version-blue",price:12.67}]
   },
   {
@@ -188,6 +204,8 @@ const PRODUCTS = [
       "Minimal downtime",
       "Ergonomic grip"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sceb1322beac94bc6b163abe7f507ca4dO.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015971061935,title:"blue",price:57.53},{id:47015971094703,title:"yellow",price:57.38},{id:47015971127471,title:"mini red",price:11.18},{id:47015971160239,title:"black",price:57.04},{id:47015971193007,title:"red",price:56.86}]
   },
   {
@@ -209,6 +227,8 @@ const PRODUCTS = [
       "Extended battle time",
       "4.6★ premium rated"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S6975fb6bc6fd49c990ecb1509610f17es.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015971422383,title:"blue-1",price:24.93},{id:47015971455151,title:"grey-1",price:24.84},{id:47015971487919,title:"green-2",price:27.45},{id:47015971520687,title:"blue-2",price:28.22},{id:47015971553455,title:"grey-2",price:28.76}]
   },
   {
@@ -230,6 +250,8 @@ const PRODUCTS = [
       "Auto-pulse firing",
       "Garden & pool safe"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sbd7424b205d54958a9e5ec80de32c82a9.png_480x480.png'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015970832559,title:"Electric rapid fire",price:27.77},{id:47015970865327,title:"Electric rapid fire 1",price:28.19},{id:47015970898095,title:"Colorful lights",price:51.64},{id:47015970930863,title:"Colorful lights 1",price:54.29},{id:47015970963631,title:"No light",price:51.93},{id:47015970996399,title:"No light 1",price:51.41},{id:47015971029167,title:"Electric rapid fire 2",price:27.90}]
   },
   {
@@ -251,6 +273,8 @@ const PRODUCTS = [
       "High-capacity tank",
       "5★ perfect score"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S5872f39d4b6b44a5a227a88c2a64aeadF.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1000mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015970341039,title:"Blue",price:55.58},{id:47015970373807,title:"black",price:55.49}]
   },
   {
@@ -272,6 +296,8 @@ const PRODUCTS = [
       "High-speed stream",
       "Black tech design"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S244c66bfc7a5400d99b07f471241e806U.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015970046127,title:"6",price:39.76},{id:47015970078895,title:"7",price:41.09},{id:47015970111663,title:"4",price:31.55},{id:47015970144431,title:"5",price:39.76},{id:47015970177199,title:"2",price:24.26},{id:47015970209967,title:"3",price:31.68},{id:47015970242735,title:"1",price:24.26},{id:47015970275503,title:"8",price:40.10}]
   },
   {
@@ -293,6 +319,8 @@ const PRODUCTS = [
       "105 units sold",
       "Pool & beach certified"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sdaf07b8910174148b53b4ff533185e68G.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015969915055,title:"C",price:33.17},{id:47015969947823,title:"B",price:20.48},{id:47015969980591,title:"D",price:36.20},{id:47015970013359,title:"A",price:20.48}]
   },
   {
@@ -314,6 +342,8 @@ const PRODUCTS = [
       "Fully automatic",
       "Elite build quality"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S9c82ca312e0b49be85fe40f5c9ea467aS.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015969718447,title:"A Transparent Black",price:25.29},{id:47015969751215,title:"B Transparent Black",price:29.43},{id:47015969783983,title:"B Transparent Blue",price:29.30},{id:47015969816751,title:"B1 Transparent Black",price:20.72}]
   },
   {
@@ -335,6 +365,8 @@ const PRODUCTS = [
       "Lightweight grip",
       "Consistent squirt range"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S525293aa781046beb3f7dd26f132bbd5i.jpg_480x480q75.jpg'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015969587375,title:"CY065 Grey",price:50.63},{id:47015969620143,title:"CY065 Blue",price:50.54}]
   },
   {
@@ -356,6 +388,8 @@ const PRODUCTS = [
       "2,000+ sold",
       "4.9★ verified"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Saff9a05eef09438fba073243e6502b13i.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015969521839,title:"SKY BLUE",price:55.01},{id:47015969554607,title:"black",price:55.01}]
   },
   {
@@ -377,6 +411,8 @@ const PRODUCTS = [
       "Compact mini size",
       "Strong squirt pressure"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sb28843d198364ba8a91eaef8817f6e81P.jpg_480x480q75.jpg'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015969390767,title:"White Blue",price:28.85},{id:47015969423535,title:"Blue Orange",price:27.65},{id:47015969456303,title:"Blue white",price:20.97}]
   },
   {
@@ -398,6 +434,8 @@ const PRODUCTS = [
       "Unique styling",
       "Conversation starter"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S55b9a8cb99cf4b118807d2d1c98acdcaN.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015969292463,title:"8001B-02",price:28.44},{id:47015969325231,title:"8001B-01",price:28.49}]
   },
   {
@@ -419,6 +457,8 @@ const PRODUCTS = [
       "Modern electric motor",
       "All-day run time"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Se37e59820fbc4c858726919e27feb82d4.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015969128623,title:"B Pink",price:38.50},{id:47015969161391,title:"A Blue",price:35.28},{id:47015969194159,title:"B Blue",price:38.50},{id:47015969226927,title:"A Pink",price:35.28}]
   },
   {
@@ -440,6 +480,8 @@ const PRODUCTS = [
       "Best value price",
       "Reliable squirt stream"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S76a6eedf383d445ca27142726023a6934.jpg_480x480q75.jpg'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015968997551,title:"Green Ring Shaped",price:40.55},{id:47015969030319,title:"Gray Ring Shaped",price:40.50},{id:47015969063087,title:"Blue Ring Shaped",price:40.64}]
   },
   {
@@ -461,6 +503,8 @@ const PRODUCTS = [
       "Lightweight & safe",
       "Easy to reload"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S4e80c368d87a42c0b90574426206726em.jpg_480x480q75.jpg'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015968833711,title:"1pc Blue",price:20.30},{id:47015968866479,title:"1pc Green",price:20.70},{id:47015968899247,title:"2pcs",price:32.31},{id:47015968932015,title:"4pcs",price:67.37}]
   },
   {
@@ -482,6 +526,8 @@ const PRODUCTS = [
       "Built-in soaker mechanism",
       "Serious range for size"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sb1622e4beaa64754966d34d4f247d69dK.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015968669871,title:"MK3 Gray",price:78.80},{id:47015968702639,title:"MK3 Blue",price:75.22},{id:47015968735407,title:"M95 Gray",price:84.08},{id:47015968768175,title:"M95 Blue",price:84.35}]
   },
   {
@@ -503,6 +549,8 @@ const PRODUCTS = [
       "Party & prank ready",
       "Lightweight pistol"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S2c83d2a8115045e58dad9bc7e4c19291o.jpg_480x480q75.jpg'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015968538799,title:"Blue Short Version",price:34.40},{id:47015968571567,title:"Pink Short Version",price:34.07},{id:47015968604335,title:"Blue Long Version",price:46.37},{id:47015968637103,title:"Pink Long Version",price:47.70}]
   },
   {
@@ -524,6 +572,8 @@ const PRODUCTS = [
       "Powerful adult stream",
       "4.4★ buyer rating"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S27424623101a47449be3970a44abf637l.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015968473263,title:"Red",price:26.37}]
   },
   {
@@ -545,6 +595,8 @@ const PRODUCTS = [
       "Perfect gift option",
       "4.5★ verified"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Se5d1d388c5ef4aeea90e07cbff2da255k.jpg_480x480q75.jpg'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015968342191,title:"Red",price:64.94},{id:47015968374959,title:"Blue",price:61.99},{id:47015968407727,title:"Black",price:65.09}]
   },
   {
@@ -566,6 +618,8 @@ const PRODUCTS = [
       "5★ perfect rating",
       "Adult pool party hero"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Scd1edfdf73c74ec9974c50925fa46ab1Y.jpg_480x480q75.jpg'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015968014511,title:"Style B Red",price:27.68},{id:47015968047279,title:"Style B Blue",price:27.68},{id:47015968080047,title:"Style B Gray Green",price:27.68},{id:47015968112815,title:"Style B Gray",price:27.68},{id:47015968145583,title:"Gray Red",price:97.36},{id:47015968178351,title:"Gray Green",price:97.36},{id:47015968211119,title:"Gray Blue",price:97.36},{id:47015968243887,title:"Gray White",price:97.36}]
   },
   {
@@ -587,6 +641,8 @@ const PRODUCTS = [
       "426 proven sales",
       "Kids-comfortable fit"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S2c48552f7b844787a1df5a67d56b5ab8Z.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015967785135,title:"CY155-black",price:34.04},{id:47015967817903,title:"CY155-red",price:34.04},{id:47015967850671,title:"CY134-grey",price:44.91},{id:47015967883439,title:"CY135-grey",price:42.32},{id:47015967916207,title:"CY155-blue",price:34.04},{id:47015967948975,title:"CY135-blue",price:42.32},{id:47015967981743,title:"CY134-blue",price:44.91}]
   },
   {
@@ -608,6 +664,8 @@ const PRODUCTS = [
       "Fireman design",
       "4.6★ buyer rating"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sf1289e8f7e9146799ff7fec0231edc79T.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'1500mL+', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015967654063,title:"blue",price:28.55},{id:47015967686831,title:"pink",price:28.49}]
   },
   {
@@ -629,6 +687,8 @@ const PRODUCTS = [
       "Bright vivid colors",
       "Beach & outdoor ready"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S1d7967401e7a46b292b791794ae70784N.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015967555759,title:"red",price:126.11},{id:47015967588527,title:"bule",price:126.11}]
   },
   {
@@ -650,6 +710,8 @@ const PRODUCTS = [
       "Hands-free water supply",
       "Electric motor"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S2b60e33962c24a918e6b1093143b4c41U.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Electric Auto', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015967490223,title:"7",price:31.84},{id:47015967522991,title:"8",price:31.66}]
   },
   {
@@ -671,6 +733,8 @@ const PRODUCTS = [
       "Heavy-duty straps",
       "Maximum ammo capacity"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sdaa9467f4ec641b19192fadadcf6846fZ.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'15L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015967260847,title:"White",price:68.63},{id:47015967293615,title:"Blue",price:68.63},{id:47015967326383,title:"goggles",price:10.67},{id:47015967359151,title:"green",price:68.69},{id:47015967391919,title:"Red",price:68.72}]
   },
   {
@@ -692,6 +756,8 @@ const PRODUCTS = [
       "Backpack supply tank",
       "Outrange everything"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S5b03cef207b34d6cb5eb66c6a1cff001d.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'15m / 49ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015967162543,title:"Black",price:22.14},{id:47015967195311,title:"Blue",price:22.03}]
   },
   {
@@ -713,6 +779,8 @@ const PRODUCTS = [
       "Best entry price",
       "Simple & reliable"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S66b09dfafc274d4aa7811b9a51b167bbM.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'2L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015966933167,title:"06",price:60.93},{id:47015966965935,title:"05",price:62.39},{id:47015966998703,title:"07",price:61.90},{id:47015967031471,title:"02",price:62.71},{id:47015967064239,title:"01",price:62.12},{id:47015967097007,title:"04",price:64.42},{id:47015967129775,title:"03",price:64.49}]
   },
   {
@@ -734,6 +802,8 @@ const PRODUCTS = [
       "Role-play ready",
       "Easy back straps"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sdb47cf29c9d848b49a5c78bcef362450v.png_480x480.png'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'1200mL+', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015966769327,title:"1",price:67.07},{id:47015966802095,title:"2",price:66.87},{id:47015966834863,title:"3",price:43.90},{id:47015966867631,title:"4",price:43.90}]
   },
   {
@@ -755,6 +825,8 @@ const PRODUCTS = [
       "Light & durable",
       "Quick refill system"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S86a52764f64c43759ce7617f2965d0bb9.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015966605487,title:"big size",price:101.77},{id:47015966638255,title:"big size 1",price:101.77},{id:47015966671023,title:"small size",price:72.90},{id:47015966703791,title:"small size 1",price:72.90}]
   },
   {
@@ -776,6 +848,8 @@ const PRODUCTS = [
       "Full kit in one box",
       "Budget-friendly bundle"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Se1ae86a65da1419695de9cf7f4b5a41d5.jpg_480x480q75.jpg'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015966507183,title:"Blue-set",price:69.05},{id:47015966539951,title:"Pink-set",price:69.05}]
   },
   {
@@ -797,6 +871,8 @@ const PRODUCTS = [
       "Party-ready instantly",
       "All ages fun"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S4ba3b55cdf284ea49c355f04ac4a7f14M.jpg_480x480q75.jpg'],
+    specs: {'Contents':'2-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015966310575,title:"1293A",price:24.59},{id:47015966343343,title:"1292B",price:37.10},{id:47015966376111,title:"1293B",price:24.50},{id:47015966408879,title:"1292A",price:35.28}]
   },
   {
@@ -818,6 +894,8 @@ const PRODUCTS = [
       "BBQ & camp ready",
       "Value multi-pack"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S885e7ff17c0c47a7bfe1b0bbf24a541fs.jpg_480x480q75.jpg'],
+    specs: {'Contents':'9-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015966277807,title:"1pcs",price:11.84}]
   },
   {
@@ -839,6 +917,8 @@ const PRODUCTS = [
       ",       ",
       ",       "
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S15ff2f7b51a747f7ac767857a1cb88d4B.jpg_480x480q75.jpg'],
+    specs: {'Contents':'8-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015966015663,title:"Water gun",price:14.83},{id:47015966048431,title:"Nipple connector",price:8.33},{id:47015966081199,title:"with 1 connector",price:18.07},{id:47015966113967,title:"Tap adapter",price:11.93},{id:47015966146735,title:"16mm pipe Joint",price:9.38},{id:47015966179503,title:"Trigger water gun",price:17.28},{id:47015966212271,title:"16mm pipe Joint BK",price:9.38}]
   },
   {
@@ -860,6 +940,8 @@ const PRODUCTS = [
       "Long-range champion",
       "Lightweight carry"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Se0dbe8e010e140c88f3fdd20a321b6691.png_480x480.png'],
+    specs: {'Contents':'Multi-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015965786287,title:"1-2PCS",price:19.96},{id:47015965819055,title:"1",price:14.33},{id:47015965851823,title:"2",price:14.65},{id:47015965884591,title:"3",price:14.58},{id:47015965917359,title:"4",price:14.27}]
   },
   {
@@ -881,6 +963,8 @@ const PRODUCTS = [
       "High pressure output",
       "Charge & fire all day"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sa38faa281f5d422fb9634aa510cebefdH.jpg_480x480q75.jpg'],
+    specs: {'Contents':'Multi-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015965655215,title:"A",price:25.38},{id:47015965687983,title:"B",price:25.38},{id:47015965720751,title:"C",price:25.49}]
   },
   {
@@ -902,6 +986,8 @@ const PRODUCTS = [
       "XL water reservoir",
       "Distance domination"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S7ada2cbf95ff4f8dadfcb26a9d9fc413O.jpg_480x480q75.jpg'],
+    specs: {'Contents':'Multi-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015965524143,title:"Water gun",price:13.75},{id:47015965556911,title:"Water gun 1",price:13.97},{id:47015965589679,title:"Water gun 2",price:15.57},{id:47015965622447,title:"Water gun 3",price:13.82}]
   },
   {
@@ -923,6 +1009,8 @@ const PRODUCTS = [
       "Zero-fumble reload",
       "Quick trigger response"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S762302adce344bdeabde5d04c34921267.jpg_480x480q75.jpg'],
+    specs: {'Contents':'Multi-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015965229231,title:"7",price:38.59},{id:47015965261999,title:"8",price:27.52},{id:47015965294767,title:"4",price:27.43},{id:47015965327535,title:"3",price:27.52},{id:47015965360303,title:"6",price:38.63},{id:47015965393071,title:"5",price:38.41},{id:47015965425839,title:"2",price:27.45},{id:47015965458607,title:"1",price:27.38}]
   },
   {
@@ -944,6 +1032,8 @@ const PRODUCTS = [
       "Full adult range",
       "Built to dominate"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S3f78b24e961548f984863dcd32c177cek.jpg_480x480q75.jpg'],
+    specs: {'Contents':'Multi-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015965098159,title:"BB",price:177.48},{id:47015965130927,title:"AA",price:159.91}]
   },
   {
@@ -965,6 +1055,8 @@ const PRODUCTS = [
       "Pool party centerpiece",
       "Ultimate party weapon"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S6b3bf5aa8c1a44c9abffbbbabccbbde0v.jpg_480x480q75.jpg'],
+    specs: {'Contents':'Multi-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015964999855,title:"Aug-Red-Fire-H",price:92.84},{id:47015965032623,title:"Aug-Cham-H",price:92.45}]
   },
   {
@@ -986,6 +1078,8 @@ const PRODUCTS = [
       "Battle-ready accessories",
       "One bundle drop"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S4ba3b55cdf284ea49c355f04ac4a7f14M.jpg_480x480q75.jpg'],
+    specs: {'Contents':'Multi-piece set', 'Type':'Bundle Kit', 'Material':'ABS Plastic', 'Age Rating':'6+'},
     variants: [{id:47015964868783,title:"Blue",price:16.04},{id:47015964901551,title:"White",price:16.07},{id:47015964934319,title:"Black and Orange",price:16.09},{id:47015964967087,title:"Light coffee brown",price:16.34}]
   },
   {
@@ -1007,6 +1101,8 @@ const PRODUCTS = [
       "Large kid-sized tank",
       "4.5★ verified"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sb3e29e8bd49244f9be870962f346b1e8Q.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015963656367,title:"4",price:56.43},{id:47015963689135,title:"3",price:55.49},{id:47015963721903,title:"2",price:62.17},{id:47015963754671,title:"1",price:61.45}]
   },
   {
@@ -1028,6 +1124,8 @@ const PRODUCTS = [
       "Compact colorful build",
       "Strong burst for size"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S85c4f4e31ec34d1083e1624613635954z.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015963590831,title:"One random color",price:13.21}]
   },
   {
@@ -1049,6 +1147,8 @@ const PRODUCTS = [
       "4.8★ top kids rating",
       "Summer beach certified"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S3d816ceaee774c3a8b3259938c9f7311Y.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015963492527,title:"With Body LED",price:92.57},{id:47015963525295,title:"NO Body LED",price:85.93}]
   },
   {
@@ -1070,6 +1170,8 @@ const PRODUCTS = [
       "Bright eye-catching colors",
       "All ages outdoor fun"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S1d7967401e7a46b292b791794ae70784N.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015963295919,title:"Style A Gray",price:51.71},{id:47015963328687,title:"Style B Blue",price:25.83},{id:47015963361455,title:"Style B Gray",price:25.83},{id:47015963394223,title:"Style A Green",price:51.71},{id:47015963426991,title:"Style A Blue",price:51.71}]
   },
   {
@@ -1091,6 +1193,8 @@ const PRODUCTS = [
       "Budget gift option",
       "Outdoor play ready"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Se1ae86a65da1419695de9cf7f4b5a41d5.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015962706095,title:"BS-blue",price:19.91},{id:47015962738863,title:"BS-grey",price:19.64},{id:47015962771631,title:"blue-1",price:26.08},{id:47015962804399,title:"MP5-grey",price:28.60},{id:47015962837167,title:"grey-2",price:27.02},{id:47015962869935,title:"green-2",price:27.88},{id:47015962902703,title:"MP5-blue",price:28.46},{id:47015962935471,title:"grey-1",price:26.15},{id:47015962968239,title:"MP5-green",price:28.51},{id:47015963001007,title:"blue-2",price:26.87},{id:47015963033775,title:"JL-blue",price:41.33},{id:47015963066543,title:"JL-grey",price:41.02},{id:47015963099311,title:"JL-green",price:41.11},{id:47015963132079,title:"GL-pink",price:27.23},{id:47015963164847,title:"GL-blue",price:27.00},{id:47015963197615,title:"MP5K-green",price:29.41},{id:47015963230383,title:"MP5K-grey",price:29.54},{id:47015963263151,title:"MP5K-blue",price:29.79}]
   },
   {
@@ -1112,6 +1216,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015962607791,title:"Pink-Clok",price:25.79}]
   },
   {
@@ -1133,6 +1239,8 @@ const PRODUCTS = [
       "Easy kids reload",
       "Best first water gun"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S4e80c368d87a42c0b90574426206726em.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015962411183,title:"Red",price:57.80},{id:47015962443951,title:"Blue",price:57.53},{id:47015962476719,title:"Black",price:57.53}]
   },
   {
@@ -1154,6 +1262,8 @@ const PRODUCTS = [
       "Kids back straps",
       "Less refill stops"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S66b09dfafc274d4aa7811b9a51b167bbM.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'2L', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015962509487,title:"Handheld water gun",price:35.15},{id:47015962542255,title:"Pistol water gun",price:14.51}]
   },
   {
@@ -1175,6 +1285,8 @@ const PRODUCTS = [
       "Pool beach & garden",
       "Complete fight set"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S3d816ceaee774c3a8b3259938c9f7311Y.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015962214575,title:"3",price:37.67},{id:47015962247343,title:"4",price:43.81},{id:47015962280111,title:"5",price:43.81},{id:47015962312879,title:"1",price:38.72},{id:47015962345647,title:"2",price:41.60}]
   },
   {
@@ -1196,6 +1308,8 @@ const PRODUCTS = [
       "Run and gun ready",
       "Survives active play"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S86a52764f64c43759ce7617f2965d0bb9.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015945568431,title:"4",price:39.26},{id:47015945601199,title:"5",price:38.88},{id:47015945633967,title:"6",price:39.89},{id:47015945666735,title:"1",price:22.55},{id:47015945699503,title:"2",price:22.48},{id:47015945732271,title:"3",price:39.26}]
   },
   {
@@ -1217,6 +1331,8 @@ const PRODUCTS = [
       "Plug and play",
       "Parent-approved tech"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/Sa38faa281f5d422fb9634aa510cebefdH.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015945273519,title:"plum",price:24.95},{id:47015945306287,title:"DARK GRAY",price:25.34},{id:47015945339055,title:"army green",price:25.02},{id:47015945371823,title:"light green",price:24.77},{id:47015945404591,title:"Light Grey",price:25.04},{id:47015945437359,title:"Dark Khaki",price:25.13},{id:47015945470127,title:"Light Yellow",price:25.13}]
   },
   {
@@ -1238,6 +1354,8 @@ const PRODUCTS = [
       "Zero party arguments",
       "Instant battle ready"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S885e7ff17c0c47a7bfe1b0bbf24a541fs.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015945142447,title:"blue",price:25.09},{id:47015945175215,title:"Red",price:25.25},{id:47015945207983,title:"green",price:25.40}]
   },
   {
@@ -1259,6 +1377,8 @@ const PRODUCTS = [
       "Parent-friendly price",
       "Summer outdoor set"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/S4ba3b55cdf284ea49c355f04ac4a7f14M.jpg_480x480q75.jpg'],
+    specs: {'Type':'Kids Water Gun', 'Tank Capacity':'300mL', 'Range':'5m / 16ft', 'Operation':'Manual Pump', 'Material':'Safe ABS Plastic', 'Age Rating':'3+'},
     variants: [{id:47015945044143,title:"A",price:146.48},{id:47015945076911,title:"B",price:152.57}]
   },
   {
@@ -1280,6 +1400,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015944814767,title:"Black Vector",price:31.55},{id:47015944847535,title:"Blue S200s",price:28.06},{id:47015944880303,title:"Black ARP9",price:32.67},{id:47015944913071,title:"Blue Vector",price:30.51},{id:47015944945839,title:"Black S200s",price:28.44},{id:47015944978607,title:"Black Blue ARP9",price:32.67}]
   },
   {
@@ -1301,6 +1423,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015944585391,title:"Rainbow",price:28.06},{id:47015944618159,title:"Red",price:26.62},{id:47015944650927,title:"Yellow",price:27.02},{id:47015944683695,title:"Blue",price:27.07},{id:47015944716463,title:"White",price:26.98},{id:47015944749231,title:"Dino",price:27.07}]
   },
   {
@@ -1322,6 +1446,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015944454319,title:"Transparent Blue",price:24.75},{id:47015944487087,title:"Transparent Red",price:25.25},{id:47015944519855,title:"transparent green",price:27.05},{id:47015944552623,title:"transparent gray",price:24.75}]
   },
   {
@@ -1343,6 +1469,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015944388783,title:"5Pcs Random Colors",price:24.44},{id:47015944421551,title:"10Pcs Random Colors",price:39.47}]
   },
   {
@@ -1364,6 +1492,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015944159407,title:"3",price:37.67},{id:47015944192175,title:"4",price:43.81},{id:47015944224943,title:"5",price:43.81},{id:47015944257711,title:"1",price:38.72},{id:47015944290479,title:"2",price:41.60}]
   },
   {
@@ -1385,6 +1515,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015943864495,title:"E",price:22.32},{id:47015943897263,title:"D",price:22.32},{id:47015943930031,title:"C",price:22.32},{id:47015943962799,title:"B",price:22.32},{id:47015943995567,title:"H",price:22.32},{id:47015944028335,title:"G",price:22.32},{id:47015944061103,title:"F",price:22.32},{id:47015944093871,title:"A",price:22.32}]
   },
   {
@@ -1406,6 +1538,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015943733423,title:"Dazzling Fire Blue",price:86.60},{id:47015943766191,title:"Dazzling Fire Green",price:85.95},{id:47015943798959,title:"Purple Llame Black",price:86.56}]
   },
   {
@@ -1427,6 +1561,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015943667887,title:"Red / Option 1",price:24.82}]
   },
   {
@@ -1448,6 +1584,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'1200mL+', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015943569583,title:"STM1323",price:26.42},{id:47015943602351,title:"STM1322",price:26.66}]
   },
   {
@@ -1469,6 +1607,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Electric Auto', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015943438511,title:"Pink",price:21.53},{id:47015943471279,title:"Orange",price:20.16},{id:47015943504047,title:"YELLOW",price:20.41}]
   },
   {
@@ -1490,6 +1630,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015943209135,title:"1.5L B",price:40.70},{id:47015943241903,title:"1.5L A",price:40.48},{id:47015943274671,title:"1.5L D",price:40.28},{id:47015943307439,title:"1.5L C",price:40.43},{id:47015943340207,title:"1.5L F",price:40.43},{id:47015943372975,title:"1.5L E",price:40.32}]
   },
   {
@@ -1511,6 +1653,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Sniper Blaster', 'Tank Capacity':'600mL', 'Range':'12m / 40ft', 'Firing':'Electric Auto', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Length':'~60cm', 'Age Rating':'14+'},
     variants: [{id:47015942946991,title:"Style B Blue",price:26.33},{id:47015942979759,title:"Style B Gray Green",price:26.28},{id:47015943012527,title:"Style A Gray",price:67.61},{id:47015943045295,title:"Style B Gray",price:26.28},{id:47015943078063,title:"Style B Red",price:26.19},{id:47015943110831,title:"Style A Blue",price:67.52},{id:47015943143599,title:"Style A Green",price:67.68}]
   },
   {
@@ -1532,6 +1676,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015942750383,title:"Purple Flame Black",price:94.07},{id:47015942783151,title:"black",price:93.98},{id:47015942815919,title:"Blue",price:94.28},{id:47015942848687,title:"light blue",price:94.55},{id:47015942881455,title:"green",price:93.42}]
   },
   {
@@ -1553,6 +1699,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Electric Auto', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015942488239,title:"2 batteries-black",price:141.12},{id:47015942521007,title:"2 batteries-blue",price:141.50},{id:47015942553775,title:"BLACK",price:184.19},{id:47015942586543,title:"BLUE",price:184.19}]
   },
   {
@@ -1574,6 +1722,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015942619311,title:"Black Handgun",price:40.75},{id:47015942652079,title:"Blue Handgun",price:40.75}]
   },
   {
@@ -1595,6 +1745,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015942357167,title:"Gold high-end",price:79.18},{id:47015942389935,title:"Gold standard",price:64.35},{id:47015942422703,title:"Red high-end",price:79.49},{id:47015942455471,title:"Red standard",price:64.80}]
   },
   {
@@ -1616,6 +1768,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015942226095,title:"1PCS Color Random",price:14.83}]
   },
   {
@@ -1637,6 +1791,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015942193327,title:"light green",price:15.71}]
   },
   {
@@ -1658,6 +1814,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015942029487,title:"Blue",price:69.68},{id:47015942062255,title:"Red",price:71.60},{id:47015942095023,title:"green",price:67.07},{id:47015942127791,title:"black",price:70.09}]
   },
   {
@@ -1679,6 +1837,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'1200mL+', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015941996719,title:"Blue",price:50.63}]
   },
   {
@@ -1700,6 +1860,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015941898415,title:"CY079 Blue",price:59.69},{id:47015941931183,title:"CY077 Red",price:59.99}]
   },
   {
@@ -1721,6 +1883,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1200mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015941767343,title:"pink",price:25.52},{id:47015941800111,title:"dark blue",price:25.52},{id:47015941832879,title:"Purple",price:25.52},{id:47015941865647,title:"9-piece wholesale",price:281.54}]
   },
   {
@@ -1742,6 +1906,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015941570735,title:"Blue 1PC",price:11.54},{id:47015941603503,title:"Purple 1PC",price:11.77},{id:47015941636271,title:"Pink 1PC",price:11.79}]
   },
   {
@@ -1763,6 +1929,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015941472431,title:"T-BLACK",price:136.94},{id:47015941505199,title:"T-BLUE",price:143.01}]
   },
   {
@@ -1784,6 +1952,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015941308591,title:"As Picture / 4 Bottles",price:15.68},{id:47015941341359,title:"As Picture / 2 Bottles",price:11.21},{id:47015941374127,title:"As Picture / 12 Bottles",price:30.47},{id:47015941406895,title:"As Picture / 8 Bottles",price:23.09}]
   },
   {
@@ -1805,6 +1975,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015941275823,title:"4pcs",price:14.76}]
   },
   {
@@ -1826,6 +1998,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015941046447,title:"M416-Blu-Blk-001-H",price:99.38},{id:47015941079215,title:"M4a6-Purple-002-H",price:100.78},{id:47015941111983,title:"M416-Red-Blk-White-H",price:102.51},{id:47015941144751,title:"M416-Space-001-H",price:99.70}]
   },
   {
@@ -1847,6 +2021,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015940620463,title:"M416 Blue",price:81.77},{id:47015940653231,title:"M4 Red",price:92.32},{id:47015940685999,title:"M4A1 Red",price:80.66}]
   },
   {
@@ -1868,6 +2044,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015940358319,title:"K-E-46-RE4.8M",price:36.00},{id:47015940391087,title:"K-E-46-PI4.8M",price:36.00},{id:47015940423855,title:"K-E-46-BU4.8M",price:36.00},{id:47015940456623,title:"K-E-45-OR4.8M",price:36.00},{id:47015940489391,title:"K-E-48-BL 5M",price:36.00},{id:47015940522159,title:"K-E-45-PU4.8M",price:36.00},{id:47015940554927,title:"K-E-45-OR 4.8M",price:36.00}]
   },
   {
@@ -1889,6 +2067,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015940292783,title:"Other",price:88.07}]
   },
   {
@@ -1910,6 +2090,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015940030639,title:"Light Red",price:44.48},{id:47015940063407,title:"White Blue",price:77.47},{id:47015940096175,title:"Light Green",price:58.88},{id:47015940128943,title:"Blue",price:57.76},{id:47015940161711,title:"Green",price:58.52},{id:47015940194479,title:"Orange",price:57.62},{id:47015940227247,title:"Red",price:58.43}]
   },
   {
@@ -1931,6 +2113,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015939932335,title:"blue",price:10.51},{id:47015939965103,title:"pink",price:10.58},{id:47015939997871,title:"white",price:10.26}]
   },
   {
@@ -1952,6 +2136,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015939834031,title:"Black",price:27.00}]
   },
   {
@@ -1973,6 +2159,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015939637423,title:"Red",price:43.81},{id:47015939670191,title:"green",price:45.07},{id:47015939702959,title:"Blue",price:47.09},{id:47015939735727,title:"PURPLE",price:45.61},{id:47015939768495,title:"Other",price:46.94}]
   },
   {
@@ -1994,6 +2182,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015939440815,title:"Style A Green",price:41.40},{id:47015939473583,title:"Style A Blue",price:41.40},{id:47015939506351,title:"Style B Blue",price:27.27},{id:47015939539119,title:"Style B Gray",price:27.20},{id:47015939571887,title:"Style A Black",price:41.40}]
   },
   {
@@ -2015,6 +2205,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015939276975,title:"Default Title",price:98.33}]
   },
   {
@@ -2036,6 +2228,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'1200mL+', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015939309743,title:"Default Title",price:28.73}]
   },
   {
@@ -2057,6 +2251,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015939178671,title:"Blue",price:50.90}]
   },
   {
@@ -2078,6 +2274,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015939211439,title:"SilveryLaserPainting / United States",price:45.41},{id:47015939244207,title:"PilveryLaserPainting / United States",price:45.41}]
   },
   {
@@ -2099,6 +2297,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'500mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015938949295,title:"SKY BLUE",price:14.81},{id:47015938982063,title:"Pink",price:14.83},{id:47015939014831,title:"Orange",price:14.83},{id:47015939047599,title:"light green",price:14.78},{id:47015939080367,title:"WHITE",price:14.49},{id:47015939113135,title:"DEEP BLUE",price:14.49}]
   },
   {
@@ -2120,6 +2320,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Electric Auto', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015938818223,title:"028 WITH BOX",price:24.95},{id:47015938850991,title:"029 WITH BOX",price:24.05}]
   },
   {
@@ -2141,6 +2343,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'2000mL', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015938687151,title:"Penguin",price:26.64},{id:47015938719919,title:"Chubby-Dragon",price:27.34},{id:47015938752687,title:"Dinosaur",price:26.57},{id:47015938785455,title:"Pink-Horse",price:26.75}]
   },
   {
@@ -2162,6 +2366,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015938556079,title:"blue",price:11.30},{id:47015938588847,title:"red",price:11.41},{id:47015938621615,title:"orange",price:11.30}]
   },
   {
@@ -2183,6 +2389,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015938392239,title:"Blue",price:105.19},{id:47015938425007,title:"Red",price:106.00},{id:47015938457775,title:"Black Golden",price:106.63},{id:47015938490543,title:"Black Red",price:105.12}]
   },
   {
@@ -2204,6 +2412,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015938228399,title:"fully equipped",price:139.86},{id:47015938261167,title:"standard",price:121.12},{id:47015938293935,title:"Hight configuration",price:150.77}]
   },
   {
@@ -2225,6 +2435,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015937900719,title:"Penguin",price:29.79},{id:47015937933487,title:"Capybara",price:30.31},{id:47015937966255,title:"Snail",price:29.77},{id:47015937999023,title:"Giraffe",price:30.35},{id:47015938031791,title:"Dinosaur",price:30.15},{id:47015938064559,title:"Elephant",price:30.11},{id:47015938097327,title:"Cat",price:30.22},{id:47015938130095,title:"Duck",price:30.47},{id:47015938162863,title:"Pig",price:30.74}]
   },
   {
@@ -2246,6 +2458,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1000mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015937671343,title:"Red",price:12.08},{id:47015937704111,title:"DEEP BLUE",price:11.95},{id:47015937736879,title:"Pink",price:11.99},{id:47015937769647,title:"army green",price:11.95},{id:47015937802415,title:"PURPLE",price:11.95},{id:47015937835183,title:"light green",price:12.06}]
   },
   {
@@ -2267,6 +2481,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015937376431,title:"gray blue",price:12.35},{id:47015937409199,title:"gray pink",price:12.58},{id:47015937441967,title:"pink blue",price:12.51},{id:47015937474735,title:"gray",price:9.97},{id:47015937507503,title:"3PCS",price:15.08},{id:47015937540271,title:"pink",price:9.95},{id:47015937573039,title:"blue",price:10.19}]
   },
   {
@@ -2288,6 +2504,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015937212591,title:"Fen-Niu",price:22.37},{id:47015937245359,title:"Dinosaur",price:22.34},{id:47015937278127,title:"Monsters",price:22.57},{id:47015937310895,title:"Snail",price:22.30}]
   },
   {
@@ -2309,6 +2527,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'1000mL+', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015937114287,title:"M416 Green",price:14.40},{id:47015937147055,title:"M416 Blue",price:14.33},{id:47015937179823,title:"M416 Pink",price:20.61}]
   },
   {
@@ -2330,6 +2550,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015936786607,title:"Pig",price:29.88},{id:47015936819375,title:"Duck",price:29.25},{id:47015936852143,title:"Cat",price:29.12},{id:47015936884911,title:"Elephant",price:29.12},{id:47015936917679,title:"Dinosaur",price:28.73},{id:47015936950447,title:"Giraffe",price:29.25},{id:47015936983215,title:"Snail",price:28.87},{id:47015937015983,title:"Capybara",price:29.07},{id:47015937048751,title:"Penguin",price:28.85}]
   },
   {
@@ -2351,6 +2573,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015936589999,title:"3PCS",price:19.76},{id:47015936622767,title:"White",price:11.18},{id:47015936655535,title:"Blue",price:11.21},{id:47015936688303,title:"Pink",price:11.12}]
   },
   {
@@ -2372,6 +2596,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015936426159,title:"Style B Red",price:28.78},{id:47015936458927,title:"Style B Blue",price:28.80},{id:47015936491695,title:"Style A Blue",price:51.12},{id:47015936524463,title:"Style B Black",price:29.12},{id:47015936557231,title:"Style A Black",price:50.78}]
   },
   {
@@ -2393,6 +2619,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015936295087,title:"Brown",price:48.15},{id:47015936327855,title:"WHITE",price:48.11},{id:47015936360623,title:"Blue",price:46.06}]
   },
   {
@@ -2414,6 +2642,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015936065711,title:"black",price:16.85},{id:47015936098479,title:"Red",price:16.07},{id:47015936131247,title:"Blue",price:16.63},{id:47015936164015,title:"YELLOW",price:16.25},{id:47015936196783,title:"Orange",price:16.13}]
   },
   {
@@ -2435,6 +2665,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015936000175,title:"02 Red",price:104.31}]
   },
   {
@@ -2456,6 +2688,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'1200mL+', 'Range':'10m / 33ft', 'Firing':'Manual Pump', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015935836335,title:"Yellow",price:39.42},{id:47015935869103,title:"Green",price:39.85},{id:47015935901871,title:"Rose Red",price:46.82},{id:47015935934639,title:"Orange",price:39.51},{id:47015935967407,title:"Blue",price:52.52}]
   },
   {
@@ -2477,6 +2711,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1200mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015935770799,title:"orange",price:63.20}]
   },
   {
@@ -2498,6 +2734,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015935574191,title:"Voice-controlled red",price:79.99},{id:47015935606959,title:"Voice backpack blue",price:87.19},{id:47015935639727,title:"Voice control black",price:79.99},{id:47015935672495,title:"backpack blue",price:82.53},{id:47015935705263,title:"blue",price:74.57}]
   },
   {
@@ -2519,6 +2757,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015935508655,title:"1PC high pressure M",price:11.16}]
   },
   {
@@ -2540,6 +2780,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015935410351,title:"T66 Blue",price:31.07},{id:47015935443119,title:"T66 Black",price:31.03}]
   },
   {
@@ -2561,6 +2803,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Backpack Blaster', 'Tank Capacity':'3L', 'Range':'10m / 33ft', 'Firing':'Electric Auto', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'8+'},
     variants: [{id:47015935279279,title:"28 Blue With Box",price:30.69},{id:47015935312047,title:"29 Pink With Box",price:29.84}]
   },
   {
@@ -2582,6 +2826,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Sniper Blaster', 'Tank Capacity':'600mL', 'Range':'12m / 40ft', 'Firing':'Pump Action', 'Material':'ABS Plastic', 'Length':'~60cm', 'Age Rating':'14+'},
     variants: [{id:47015935180975,title:"A2",price:19.40},{id:47015935213743,title:"A1",price:19.35}]
   },
   {
@@ -2603,6 +2849,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1200mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015935049903,title:"GRAY",price:29.23},{id:47015935082671,title:"Red",price:29.27},{id:47015935115439,title:"Blue",price:29.32}]
   },
   {
@@ -2624,6 +2872,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015935017135,title:"random color",price:23.87}]
   },
   {
@@ -2645,6 +2895,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1200mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015934820527,title:"1",price:12.74},{id:47015934853295,title:"2",price:12.74},{id:47015934886063,title:"3",price:12.69},{id:47015934918831,title:"4",price:11.50},{id:47015934951599,title:"5",price:11.43}]
   },
   {
@@ -2666,6 +2918,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Manual Pump Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015934656687,title:"200 PCS / China Mainland",price:203.33},{id:47015934689455,title:"100 PCS / China Mainland",price:109.46},{id:47015934722223,title:"150 PCS / China Mainland",price:156.92},{id:47015934754991,title:"50 PCS / China Mainland",price:59.58}]
   },
   {
@@ -2687,6 +2941,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015934492847,title:"Blue",price:40.82},{id:47015934525615,title:"Red",price:40.91},{id:47015934558383,title:"Black",price:41.87}]
   },
   {
@@ -2708,6 +2964,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015934394543,title:"B",price:11.45},{id:47015934427311,title:"A",price:11.48}]
   },
   {
@@ -2729,6 +2987,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Pistol', 'Tank Capacity':'350mL', 'Range':'6m / 20ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Weight':'~280g', 'Age Rating':'6+'},
     variants: [{id:47015934329007,title:"No box",price:27.20},{id:47015934361775,title:"No box 1",price:29.36}]
   },
   {
@@ -2750,6 +3010,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015934165167,title:"4",price:40.84},{id:47015934197935,title:"3",price:43.43},{id:47015934230703,title:"2",price:43.11},{id:47015934263471,title:"1",price:43.09},{id:47015934296239,title:"5",price:40.70}]
   },
   {
@@ -2771,6 +3033,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015934001327,title:"Blue",price:60.64},{id:47015934034095,title:"Gray",price:60.64}]
   },
   {
@@ -2792,6 +3056,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015933837487,title:"1",price:39.31},{id:47015933870255,title:"4",price:44.55},{id:47015933903023,title:"5",price:44.55},{id:47015933935791,title:"2",price:39.22},{id:47015933968559,title:"3",price:39.11}]
   },
   {
@@ -2813,6 +3079,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'1200mL+', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015933608111,title:"6",price:27.59},{id:47015933640879,title:"5",price:27.32},{id:47015933673647,title:"2",price:35.62},{id:47015933706415,title:"1",price:34.02},{id:47015933739183,title:"4",price:26.06},{id:47015933771951,title:"3",price:35.64}]
   },
   {
@@ -2834,6 +3102,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015933542575,title:"dragon-green light, store manager rec",price:112.28}]
   },
   {
@@ -2855,6 +3125,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015933411503,title:"sky blue",price:63.41},{id:47015933444271,title:"blue",price:63.61},{id:47015933477039,title:"black red",price:59.33}]
   },
   {
@@ -2876,6 +3148,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015933280431,title:"GRAY",price:54.59},{id:47015933313199,title:"2000pcs",price:18.95},{id:47015933345967,title:"500pcs",price:12.31}]
   },
   {
@@ -2897,6 +3171,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015933182127,title:"SLR-L-Box-2xMaga",price:134.98},{id:47015933214895,title:"SLR-L-Box-1xMaga",price:119.09}]
   },
   {
@@ -2918,6 +3194,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015932854447,title:"Style C Blue",price:25.99},{id:47015932887215,title:"Style A Blue",price:44.64},{id:47015932919983,title:"Style C Red",price:25.99},{id:47015932952751,title:"Style A Green",price:42.57},{id:47015932985519,title:"Style C Gray Green",price:25.99},{id:47015933018287,title:"Style A Gray",price:44.64},{id:47015933051055,title:"Style B Gray",price:27.68},{id:47015933083823,title:"Style B Blue",price:27.68},{id:47015933116591,title:"Style C Gray",price:25.99}]
   },
   {
@@ -2939,6 +3217,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015932756143,title:"white",price:17.60},{id:47015932788911,title:"yellow",price:17.55}]
   },
   {
@@ -2960,6 +3240,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015932625071,title:"AK47-Glod-T",price:77.94},{id:47015932657839,title:"AK47-GREEN-H",price:74.00},{id:47015932690607,title:"AK47-GREEN-T",price:78.35}]
   },
   {
@@ -2981,6 +3263,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'32m / 104ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015932559535,title:"Ak47-Glod-H",price:79.94},{id:47015932592303,title:"Ak7-Green-H",price:101.72}]
   },
   {
@@ -3002,6 +3286,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015932493999,title:"Black",price:112.28}]
   },
   {
@@ -3023,6 +3309,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015932133551,title:"Blue 2B Gift Box",price:54.61},{id:47015932166319,title:"Blue 1B Gift Box",price:46.01},{id:47015932199087,title:"Red 2B Gift Box",price:54.83},{id:47015932231855,title:"Camouflage 1B Box",price:46.19},{id:47015932264623,title:"Orange 2B Gift Box",price:54.61},{id:47015932297391,title:"Orange 1B Gift Box",price:45.88},{id:47015932330159,title:"Camouflage 2B Box",price:54.56},{id:47015932362927,title:"Red 1B Gift Box",price:46.04}]
   },
   {
@@ -3044,6 +3332,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015932035247,title:"B",price:64.89},{id:47015932068015,title:"A",price:64.89}]
   },
   {
@@ -3065,6 +3355,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015931707567,title:"Blue",price:22.75},{id:47015931740335,title:"Green",price:23.09},{id:47015931773103,title:"Orange",price:25.31},{id:47015931805871,title:"Red",price:25.31},{id:47015931838639,title:"Red 1",price:22.97},{id:47015931871407,title:"Gray",price:23.06},{id:47015931904175,title:"Blue 1",price:30.71},{id:47015931936943,title:"Orange 1",price:32.06},{id:47015931969711,title:"Red 2",price:32.06},{id:47015932002479,title:"Blue 2",price:25.31}]
   },
   {
@@ -3086,6 +3378,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Gel Blaster', 'Ammo':'Water Gel Balls', 'Magazine':'500 rounds (avg)', 'Range':'15m / 50ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Eye Protection':'Recommended', 'Age Rating':'14+'},
     variants: [{id:47015931609263,title:"Upgraded version",price:107.33},{id:47015931642031,title:"Standard version",price:94.93}]
   },
   {
@@ -3107,6 +3401,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Sniper Blaster', 'Tank Capacity':'600mL', 'Range':'12m / 40ft', 'Firing':'Pump Action', 'Material':'ABS Plastic', 'Length':'~60cm', 'Age Rating':'14+'},
     variants: [{id:47015931543727,title:"12 V",price:90.00}]
   },
   {
@@ -3128,6 +3424,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015931478191,title:"12 V",price:90.00}]
   },
   {
@@ -3149,6 +3447,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015931412655,title:"12 V",price:90.00}]
   },
   {
@@ -3170,6 +3470,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Sniper Blaster', 'Tank Capacity':'600mL', 'Range':'12m / 40ft', 'Firing':'Pump Action', 'Material':'ABS Plastic', 'Length':'~60cm', 'Age Rating':'14+'},
     variants: [{id:47015931314351,title:"12 V",price:90.00}]
   },
   {
@@ -3191,6 +3493,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015931281583,title:"12 V",price:90.00}]
   },
   {
@@ -3212,6 +3516,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Sniper Blaster', 'Tank Capacity':'600mL', 'Range':'12m / 40ft', 'Firing':'Pump Action', 'Material':'ABS Plastic', 'Length':'~60cm', 'Age Rating':'14+'},
     variants: [{id:47015931183279,title:"12 V",price:40.00}]
   },
   {
@@ -3233,6 +3539,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015931150511,title:"12 V",price:90.00}]
   },
   {
@@ -3254,6 +3562,8 @@ const PRODUCTS = [
       "Easy refill",
       "Kids & adults"
     ],
+    imgs: ['https://ae-pic-a1.aliexpress-media.com/kf/'],
+    specs: {'Type':'Electric Auto', 'Tank Capacity':'800mL', 'Range':'8m / 26ft', 'Battery':'USB Rechargeable', 'Material':'ABS Plastic', 'Age Rating':'14+'},
     variants: [{id:47015931117743,title:"Default Title",price:202.50}]
   }
 ];
